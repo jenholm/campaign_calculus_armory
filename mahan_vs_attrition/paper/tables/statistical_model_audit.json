@@ -1,0 +1,38 @@
+{
+  "vif": {
+    "military_personnel_pct_change": 16.4019,
+    "military_personnel_initial": 2.184,
+    "military_expenditure_pct_change": 4.5572,
+    "military_expenditure_initial": 8.1406,
+    "energy_consumption_pct_change": 4.2846,
+    "energy_consumption_initial": 36.0542,
+    "iron_steel_pct_change": 4.1058,
+    "iron_steel_initial": 18.4828,
+    "cinc_pct_change": 21.7913,
+    "cinc_initial": 3.0812,
+    "battle_deaths_pct_change": 1.0463,
+    "battle_deaths_initial": 2.4856
+  },
+  "max_vif": 36.0542,
+  "logistic_regression": {
+    "test_accuracy": 0.5483,
+    "auc_roc": 0.561,
+    "auc_95ci": [
+      0.5165,
+      0.6048
+    ]
+  },
+  "interaction_logistic": {
+    "test_accuracy": 0.5935,
+    "auc_roc": 0.6293
+  },
+  "random_forest": {
+    "test_accuracy": 0.7321,
+    "auc_roc": 0.7946,
+    "auc_95ci": [
+      0.7598,
+      0.8282
+    ],
+    "oob_accuracy": 0.7358
+  }
+}

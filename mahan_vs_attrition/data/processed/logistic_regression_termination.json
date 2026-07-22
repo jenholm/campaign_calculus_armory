@@ -1,0 +1,113 @@
+{
+  "n_wars": 2137,
+  "n_train": 1495,
+  "n_test": 642,
+  "n_short_war": 1020,
+  "n_long_war": 1117,
+  "logistic_regression": {
+    "train_accuracy": 0.5632,
+    "test_accuracy": 0.5483,
+    "auc_roc": 0.561,
+    "top_coefficients": [
+      {
+        "feature": "battle_deaths_pct_change",
+        "coef": -1.1561
+      },
+      {
+        "feature": "energy_consumption_initial",
+        "coef": 0.5291
+      },
+      {
+        "feature": "cinc_pct_change",
+        "coef": 0.4227
+      },
+      {
+        "feature": "iron_steel_initial",
+        "coef": -0.415
+      },
+      {
+        "feature": "cinc_initial",
+        "coef": 0.3382
+      },
+      {
+        "feature": "battle_deaths_initial",
+        "coef": -0.2887
+      },
+      {
+        "feature": "military_expenditure_pct_change",
+        "coef": -0.2326
+      },
+      {
+        "feature": "energy_consumption_pct_change",
+        "coef": -0.1493
+      },
+      {
+        "feature": "military_personnel_initial",
+        "coef": -0.1389
+      },
+      {
+        "feature": "military_personnel_pct_change",
+        "coef": -0.1084
+      }
+    ]
+  },
+  "random_forest": {
+    "test_accuracy": 0.7321,
+    "top_importances": [
+      {
+        "feature": "cinc_pct_change",
+        "importance": 0.1731
+      },
+      {
+        "feature": "battle_deaths_initial",
+        "importance": 0.1423
+      },
+      {
+        "feature": "energy_consumption_pct_change",
+        "importance": 0.1152
+      },
+      {
+        "feature": "military_expenditure_pct_change",
+        "importance": 0.0876
+      },
+      {
+        "feature": "battle_deaths_pct_change",
+        "importance": 0.0837
+      },
+      {
+        "feature": "cinc_initial",
+        "importance": 0.0809
+      },
+      {
+        "feature": "military_personnel_pct_change",
+        "importance": 0.0731
+      },
+      {
+        "feature": "energy_consumption_initial",
+        "importance": 0.073
+      },
+      {
+        "feature": "military_expenditure_initial",
+        "importance": 0.0609
+      },
+      {
+        "feature": "military_personnel_initial",
+        "importance": 0.0595
+      }
+    ]
+  },
+  "all_coefficients": {
+    "military_personnel_pct_change": -0.1084,
+    "military_personnel_initial": -0.1389,
+    "military_expenditure_pct_change": -0.2326,
+    "military_expenditure_initial": 0.0089,
+    "energy_consumption_pct_change": -0.1493,
+    "energy_consumption_initial": 0.5291,
+    "iron_steel_pct_change": 0.0466,
+    "iron_steel_initial": -0.415,
+    "cinc_pct_change": 0.4227,
+    "cinc_initial": 0.3382,
+    "battle_deaths_pct_change": -1.1561,
+    "battle_deaths_initial": -0.2887
+  }
+}

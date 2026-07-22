@@ -1,0 +1,17 @@
+\subsection{Evaluation Status of Falsification Criteria}\label{sec:falsification_status}
+
+A scientific framework must specify the evidence that would refute it. We identify five measurable conditions under which the attritional iceberg thesis would be weakened or falsified. These criteria are designed to be evaluated with specific statistical thresholds, not vague qualitative assessments.
+
+\begin{enumerate}
+    \item \textbf{Exogenous predictor test.} The framework fails if a random forest classifier using only pre-war structural features achieves test accuracy within 5 percentage points of the DSS/SES classification accuracy on a held-out test set of 50+ wars with complete data. \textit{Status: tested, not falsified.} Our baseline comparison shows a random forest achieves 72.7\% accuracy on ten material-capability features alone, while the DSS/SES classification provides a distinct categorical framework.
+
+    \item \textbf{Independent blind validation at scale.} The framework fails if an independent blind validation study on 50+ historical cases, with mechanism labels assigned before model outputs are inspected, achieves exact-match accuracy below 20\%. \textit{Status: not yet tested.} This is the most important future validation. We describe a concrete protocol in Section~\ref{sec:validation_protocol}.
+
+    \item \textbf{Parameter fragility.} The framework fails if more than 3 of the 23 internal model coefficients produce classification flip rates exceeding 50\% across all 6 historical presets when varied $\pm 50\%$ from default values. \textit{Status: tested, not falsified.} Our sensitivity analysis shows that 1 of 23 coefficients exceeds the threshold (battle loss rate, 6.7\% mean flip rate), and the mean flip rate is 0.3\%.
+
+    \item \textbf{Weight sensitivity.} The framework fails if varying DSS or SES component weights by $\pm 50\%$ (with renormalization) changes the classification of more than 3 of the 7 mechanism-classified wars. \textit{Status: partially tested.} DSS weight variation produces 1 flip across all 9 components, while SES weight variation produces 20 flips concentrated at boundary cases. The Gulf War, Vietnam War, and WWI classifications are stable across all weight variations. Boundary fragility is noted.
+
+    \item \textbf{Historical reclassification.} The framework fails if a panel of 3+ independent historians, blinded to model outputs, classify fewer than 5 of the 7 mechanism-classified wars into the same category as the automated classifier (Fleiss' kappa $< 0.40$). \textit{Status: not yet tested.} This requires an independent study protocol described in Section~\ref{sec:validation_protocol}.
+\end{enumerate}
+
+Only the sensitivity-based criteria (1, 3, 4) are evaluated in the current manuscript. The independent validation criteria (2, 5) remain proposed tests, not completed evidence.

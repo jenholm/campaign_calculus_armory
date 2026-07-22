@@ -1,0 +1,346 @@
+preset,coeff,value,baseline,outcome,mechanism,secondary_mechanism,confidence,termination_event,duration_months,decisive_shock_score,strategic_exhaustion_score,political_exhaustion_score
+gulf_war_1991,battle_loss_rate,0.02,0.04,decisive_victory_a,strategic exhaustion,decisive shock,0.6246834223920351,political/military collapse of side B,40,20.6,26.0,21.8
+gulf_war_1991,battle_loss_rate,0.035,0.04,decisive_victory_a,strategic exhaustion,decisive shock,0.623115631117704,political/military collapse of side B,35,20.7,25.9,23.5
+gulf_war_1991,battle_loss_rate,0.05,0.04,decisive_victory_a,strategic exhaustion,decisive shock,0.6100108925955322,political/military collapse of side B,30,20.7,26.3,18.6
+gulf_war_1991,battle_loss_rate,0.065,0.04,decisive_victory_a,strategic exhaustion,decisive shock,0.5980163757502388,political/military collapse of side B,27,20.7,26.5,18.1
+gulf_war_1991,battle_loss_rate,0.08,0.04,decisive_victory_a,strategic exhaustion,decisive shock,0.6013063261855777,political/military collapse of side B,25,20.8,27.0,19.2
+vietnam_war,battle_loss_rate,0.02,0.04,decisive_victory_a,strategic exhaustion,decisive shock,0.6243489894106825,political/military collapse of side B,29,20.4,31.0,12.7
+vietnam_war,battle_loss_rate,0.035,0.04,decisive_victory_a,strategic exhaustion,decisive shock,0.5922440152886579,political/military collapse of side B,20,20.6,29.0,10.1
+vietnam_war,battle_loss_rate,0.05,0.04,decisive_victory_a,strategic exhaustion,decisive shock,0.5640178802054894,political/military collapse of side B,15,20.8,27.6,9.1
+vietnam_war,battle_loss_rate,0.065,0.04,decisive_victory_a,strategic exhaustion,decisive shock,0.5841130004447597,political/military collapse of side B,15,21.0,29.3,9.9
+vietnam_war,battle_loss_rate,0.08,0.04,negotiated_settlement,strategic exhaustion,decisive shock,0.5794062041883297,negotiated settlement,14,21.1,29.6,9.5
+wwi,battle_loss_rate,0.02,0.04,negotiated_settlement,strategic exhaustion,decisive shock,0.6699914121477667,negotiated settlement,37,20.8,36.8,27.9
+wwi,battle_loss_rate,0.035,0.04,negotiated_settlement,strategic exhaustion,decisive shock,0.6323152134148698,negotiated settlement,24,20.9,33.7,19.3
+wwi,battle_loss_rate,0.05,0.04,negotiated_settlement,strategic exhaustion,decisive shock,0.5860361294066989,negotiated settlement,16,21.0,30.0,14.7
+wwi,battle_loss_rate,0.065,0.04,negotiated_settlement,strategic exhaustion,decisive shock,0.5642873082494436,negotiated settlement,13,21.2,28.8,13.5
+wwi,battle_loss_rate,0.08,0.04,negotiated_settlement,strategic exhaustion,decisive shock,0.5472232290504448,negotiated settlement,11,21.4,28.1,12.1
+gulf_war_1991,recruitment_rate,0.002,0.004,decisive_victory_a,strategic exhaustion,decisive shock,0.6057786303484206,political/military collapse of side B,30,20.7,26.2,17.5
+gulf_war_1991,recruitment_rate,0.0035,0.004,decisive_victory_a,strategic exhaustion,decisive shock,0.6010390752620068,political/military collapse of side B,30,20.6,25.6,17.6
+gulf_war_1991,recruitment_rate,0.005,0.004,decisive_victory_a,strategic exhaustion,decisive shock,0.6024896409783674,political/military collapse of side B,31,20.6,25.0,18.9
+gulf_war_1991,recruitment_rate,0.0065,0.004,decisive_victory_a,strategic exhaustion,decisive shock,0.6204245756902247,political/military collapse of side B,35,20.6,25.2,24.2
+gulf_war_1991,recruitment_rate,0.008,0.004,decisive_victory_a,strategic exhaustion,decisive shock,0.6153328362695127,political/military collapse of side B,35,20.6,24.4,24.3
+vietnam_war,recruitment_rate,0.002,0.004,decisive_victory_a,strategic exhaustion,decisive shock,0.5742942707614561,political/military collapse of side B,17,20.7,28.3,9.1
+vietnam_war,recruitment_rate,0.0035,0.004,decisive_victory_a,strategic exhaustion,decisive shock,0.5714246268100275,political/military collapse of side B,17,20.7,27.9,9.1
+vietnam_war,recruitment_rate,0.005,0.004,decisive_victory_a,strategic exhaustion,decisive shock,0.5802304260392763,political/military collapse of side B,18,20.6,28.3,9.5
+vietnam_war,recruitment_rate,0.0065,0.004,decisive_victory_a,strategic exhaustion,decisive shock,0.5820715235261887,political/military collapse of side B,19,20.6,28.4,9.6
+vietnam_war,recruitment_rate,0.008,0.004,decisive_victory_a,strategic exhaustion,decisive shock,0.5932998070038725,political/military collapse of side B,20,20.6,28.6,10.5
+wwi,recruitment_rate,0.002,0.004,negotiated_settlement,strategic exhaustion,decisive shock,0.5987546975021765,negotiated settlement,18,21.0,30.8,15.6
+wwi,recruitment_rate,0.0035,0.004,negotiated_settlement,strategic exhaustion,decisive shock,0.5942914137750295,negotiated settlement,18,20.9,30.5,15.7
+wwi,recruitment_rate,0.005,0.004,negotiated_settlement,strategic exhaustion,decisive shock,0.6120483623321679,negotiated settlement,21,20.9,32.1,17.8
+wwi,recruitment_rate,0.0065,0.004,negotiated_settlement,strategic exhaustion,decisive shock,0.6341210406698686,negotiated settlement,24,20.9,33.9,20.5
+wwi,recruitment_rate,0.008,0.004,negotiated_settlement,strategic exhaustion,decisive shock,0.6296767754693156,negotiated settlement,24,20.9,33.5,20.7
+gulf_war_1991,recruitment_cap,0.75,1.5,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,recruitment_cap,1.3125,1.5,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,recruitment_cap,1.875,1.5,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,recruitment_cap,2.4375,1.5,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,recruitment_cap,3.0,1.5,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+vietnam_war,recruitment_cap,0.75,1.5,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,recruitment_cap,1.3125,1.5,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,recruitment_cap,1.875,1.5,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,recruitment_cap,2.4375,1.5,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,recruitment_cap,3.0,1.5,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+wwi,recruitment_cap,0.75,1.5,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+wwi,recruitment_cap,1.3125,1.5,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+wwi,recruitment_cap,1.875,1.5,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+wwi,recruitment_cap,2.4375,1.5,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+wwi,recruitment_cap,3.0,1.5,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+gulf_war_1991,economic_war_costs,0.0125,0.025,decisive_victory_a,strategic exhaustion,decisive shock,0.5806095376081651,political/military collapse of side B,31,20.6,23.4,18.8
+gulf_war_1991,economic_war_costs,0.0219,0.025,decisive_victory_a,strategic exhaustion,decisive shock,0.6000079254755764,political/military collapse of side B,31,20.6,25.0,18.8
+gulf_war_1991,economic_war_costs,0.0312,0.025,decisive_victory_a,strategic exhaustion,decisive shock,0.6161097143913193,political/military collapse of side B,31,20.6,26.4,18.8
+gulf_war_1991,economic_war_costs,0.0406,0.025,decisive_victory_a,strategic exhaustion,decisive shock,0.6295917464392414,political/military collapse of side B,31,20.6,27.7,18.8
+gulf_war_1991,economic_war_costs,0.05,0.025,decisive_victory_a,strategic exhaustion,decisive shock,0.6409998208145976,political/military collapse of side B,31,20.6,28.9,18.8
+vietnam_war,economic_war_costs,0.0125,0.025,decisive_victory_a,strategic exhaustion,decisive shock,0.5381227635442091,political/military collapse of side B,17,20.7,25.4,9.1
+vietnam_war,economic_war_costs,0.0219,0.025,decisive_victory_a,strategic exhaustion,decisive shock,0.5631668014023006,political/military collapse of side B,17,20.7,27.2,9.1
+vietnam_war,economic_war_costs,0.0312,0.025,decisive_victory_a,strategic exhaustion,decisive shock,0.5836171545251714,political/military collapse of side B,17,20.7,28.8,9.1
+vietnam_war,economic_war_costs,0.0406,0.025,decisive_victory_a,strategic exhaustion,decisive shock,0.6003603134240119,political/military collapse of side B,17,20.7,30.2,9.1
+vietnam_war,economic_war_costs,0.05,0.025,decisive_victory_a,strategic exhaustion,decisive shock,0.6141312747308528,political/military collapse of side B,17,20.7,31.5,9.1
+wwi,economic_war_costs,0.0125,0.025,negotiated_settlement,strategic exhaustion,decisive shock,0.5772933221983438,negotiated settlement,20,20.9,28.8,16.9
+wwi,economic_war_costs,0.0219,0.025,negotiated_settlement,strategic exhaustion,decisive shock,0.5934771905123359,negotiated settlement,19,20.9,30.3,15.7
+wwi,economic_war_costs,0.0312,0.025,negotiated_settlement,strategic exhaustion,decisive shock,0.6127974109073677,negotiated settlement,19,20.9,32.1,15.7
+wwi,economic_war_costs,0.0406,0.025,negotiated_settlement,strategic exhaustion,decisive shock,0.6280234496164623,negotiated settlement,19,20.9,33.6,15.7
+wwi,economic_war_costs,0.05,0.025,negotiated_settlement,strategic exhaustion,decisive shock,0.6401408336883085,negotiated settlement,19,20.9,34.9,15.7
+gulf_war_1991,blockade,0.005,0.01,decisive_victory_a,strategic exhaustion,decisive shock,0.601444689324506,political/military collapse of side B,31,20.6,25.1,18.8
+gulf_war_1991,blockade,0.0088,0.01,decisive_victory_a,strategic exhaustion,decisive shock,0.6046624731912125,political/military collapse of side B,31,20.6,25.4,18.8
+gulf_war_1991,blockade,0.0125,0.01,decisive_victory_a,strategic exhaustion,decisive shock,0.6077717065768334,political/military collapse of side B,31,20.6,25.7,18.8
+gulf_war_1991,blockade,0.0163,0.01,decisive_victory_a,strategic exhaustion,decisive shock,0.6107636264732403,political/military collapse of side B,31,20.6,25.9,18.8
+gulf_war_1991,blockade,0.02,0.01,decisive_victory_a,strategic exhaustion,decisive shock,0.613665027686529,political/military collapse of side B,31,20.6,26.2,18.8
+vietnam_war,blockade,0.005,0.01,decisive_victory_a,strategic exhaustion,decisive shock,0.5639245404143873,political/military collapse of side B,17,20.7,27.2,9.1
+vietnam_war,blockade,0.0088,0.01,decisive_victory_a,strategic exhaustion,decisive shock,0.5688877489052678,political/military collapse of side B,17,20.7,27.6,9.1
+vietnam_war,blockade,0.0125,0.01,decisive_victory_a,strategic exhaustion,decisive shock,0.5736096730602405,political/military collapse of side B,17,20.7,28.0,9.1
+vietnam_war,blockade,0.0163,0.01,decisive_victory_a,strategic exhaustion,decisive shock,0.5781146176604215,political/military collapse of side B,17,20.7,28.3,9.1
+vietnam_war,blockade,0.02,0.01,decisive_victory_a,strategic exhaustion,decisive shock,0.5823923386580464,political/military collapse of side B,17,20.7,28.7,9.1
+wwi,blockade,0.005,0.01,negotiated_settlement,strategic exhaustion,decisive shock,0.5937883828613864,negotiated settlement,19,20.9,30.3,15.7
+wwi,blockade,0.0088,0.01,negotiated_settlement,strategic exhaustion,decisive shock,0.5988394931585788,negotiated settlement,19,20.9,30.8,15.7
+wwi,blockade,0.0125,0.01,negotiated_settlement,strategic exhaustion,decisive shock,0.6035947893315236,negotiated settlement,19,20.9,31.2,15.7
+wwi,blockade,0.0163,0.01,negotiated_settlement,strategic exhaustion,decisive shock,0.6080743053902788,negotiated settlement,19,20.9,31.6,15.7
+wwi,blockade,0.02,0.01,negotiated_settlement,strategic exhaustion,decisive shock,0.6123094080817437,negotiated settlement,19,20.9,32.1,15.7
+gulf_war_1991,industrial_output,0.003,0.006,decisive_victory_a,strategic exhaustion,decisive shock,0.6180349089172974,political/military collapse of side B,31,20.6,26.8,18.8
+gulf_war_1991,industrial_output,0.0053,0.006,decisive_victory_a,strategic exhaustion,decisive shock,0.6088614512875632,political/military collapse of side B,31,20.6,25.8,18.8
+gulf_war_1991,industrial_output,0.0075,0.006,decisive_victory_a,strategic exhaustion,decisive shock,0.5992425343038447,political/military collapse of side B,31,20.6,24.8,18.8
+gulf_war_1991,industrial_output,0.0098,0.006,decisive_victory_a,strategic exhaustion,decisive shock,0.5891338159972074,political/military collapse of side B,31,20.6,23.8,18.8
+gulf_war_1991,industrial_output,0.012,0.006,decisive_victory_a,strategic exhaustion,decisive shock,0.5785391995609631,political/military collapse of side B,31,20.6,22.8,18.8
+vietnam_war,industrial_output,0.003,0.006,decisive_victory_a,strategic exhaustion,decisive shock,0.5793874129006986,political/military collapse of side B,17,20.7,28.4,9.1
+vietnam_war,industrial_output,0.0053,0.006,decisive_victory_a,strategic exhaustion,decisive shock,0.5727401807280706,political/military collapse of side B,17,20.7,27.9,9.1
+vietnam_war,industrial_output,0.0075,0.006,decisive_victory_a,strategic exhaustion,decisive shock,0.5663632001768363,political/military collapse of side B,17,20.7,27.4,9.1
+vietnam_war,industrial_output,0.0098,0.006,decisive_victory_a,strategic exhaustion,decisive shock,0.560417977687576,political/military collapse of side B,17,20.7,26.9,9.1
+vietnam_war,industrial_output,0.012,0.006,decisive_victory_a,strategic exhaustion,decisive shock,0.5543203018156465,political/military collapse of side B,17,20.7,26.3,9.1
+wwi,industrial_output,0.003,0.006,negotiated_settlement,strategic exhaustion,decisive shock,0.6085143366454812,negotiated settlement,19,20.9,31.7,15.7
+wwi,industrial_output,0.0053,0.006,negotiated_settlement,strategic exhaustion,decisive shock,0.6025022648401925,negotiated settlement,19,20.9,31.1,15.7
+wwi,industrial_output,0.0075,0.006,negotiated_settlement,strategic exhaustion,decisive shock,0.5963170588439408,negotiated settlement,19,20.9,30.6,15.7
+wwi,industrial_output,0.0098,0.006,negotiated_settlement,strategic exhaustion,decisive shock,0.5899433636287016,negotiated settlement,19,20.9,30.0,15.7
+wwi,industrial_output,0.012,0.006,negotiated_settlement,strategic exhaustion,decisive shock,0.5922249342152778,negotiated settlement,20,20.9,30.1,16.9
+gulf_war_1991,casualty_pressure,0.1,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.6031326871271108,political/military collapse of side B,31,20.6,25.2,16.5
+gulf_war_1991,casualty_pressure,0.175,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.605062496084323,political/military collapse of side B,31,20.6,25.4,18.2
+gulf_war_1991,casualty_pressure,0.25,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.6069868281307705,political/military collapse of side B,31,20.6,25.6,20.0
+gulf_war_1991,casualty_pressure,0.325,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.6088931768997949,political/military collapse of side B,31,20.6,25.9,21.7
+gulf_war_1991,casualty_pressure,0.4,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.6107832893814235,political/military collapse of side B,31,20.6,26.1,23.5
+vietnam_war,casualty_pressure,0.1,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.5676664763664717,political/military collapse of side B,17,20.7,27.3,7.6
+vietnam_war,casualty_pressure,0.175,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.5697862461102824,political/military collapse of side B,17,20.7,27.6,8.7
+vietnam_war,casualty_pressure,0.25,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.5718880573262207,political/military collapse of side B,17,20.7,28.0,9.9
+vietnam_war,casualty_pressure,0.325,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.5739593025547459,political/military collapse of side B,17,20.7,28.3,11.1
+vietnam_war,casualty_pressure,0.4,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.5760222354014269,political/military collapse of side B,17,20.7,28.6,12.2
+wwi,casualty_pressure,0.1,0.2,negotiated_settlement,strategic exhaustion,decisive shock,0.5964436890520571,negotiated settlement,19,20.9,30.5,12.1
+wwi,casualty_pressure,0.175,0.2,negotiated_settlement,strategic exhaustion,decisive shock,0.5994613133905495,negotiated settlement,19,20.9,30.8,14.8
+wwi,casualty_pressure,0.25,0.2,negotiated_settlement,strategic exhaustion,decisive shock,0.6024420824861351,negotiated settlement,19,20.9,31.2,17.6
+wwi,casualty_pressure,0.325,0.2,negotiated_settlement,strategic exhaustion,decisive shock,0.6053854383994934,negotiated settlement,19,20.9,31.5,20.3
+wwi,casualty_pressure,0.4,0.2,negotiated_settlement,strategic exhaustion,decisive shock,0.6083572702531104,negotiated settlement,19,20.9,31.9,23.1
+gulf_war_1991,weariness,0.2,0.4,decisive_victory_a,strategic exhaustion,decisive shock,0.6032649025155573,political/military collapse of side B,31,20.6,25.3,16.3
+gulf_war_1991,weariness,0.35,0.4,decisive_victory_a,strategic exhaustion,decisive shock,0.6050976733143141,political/military collapse of side B,31,20.6,25.4,18.2
+gulf_war_1991,weariness,0.5,0.4,decisive_victory_a,strategic exhaustion,decisive shock,0.6069165424011451,political/military collapse of side B,31,20.6,25.6,20.1
+gulf_war_1991,weariness,0.65,0.4,decisive_victory_a,strategic exhaustion,decisive shock,0.6087199017551211,political/military collapse of side B,31,20.6,25.7,22.0
+gulf_war_1991,weariness,0.8,0.4,decisive_victory_a,strategic exhaustion,decisive shock,0.6105084483364798,political/military collapse of side B,31,20.6,25.9,23.9
+vietnam_war,weariness,0.2,0.4,decisive_victory_a,strategic exhaustion,decisive shock,0.5671832737160014,political/military collapse of side B,17,20.7,27.4,6.7
+vietnam_war,weariness,0.35,0.4,decisive_victory_a,strategic exhaustion,decisive shock,0.5696604900149902,political/military collapse of side B,17,20.7,27.6,8.5
+vietnam_war,weariness,0.5,0.4,decisive_victory_a,strategic exhaustion,decisive shock,0.5721260805330288,political/military collapse of side B,17,20.7,27.9,10.3
+vietnam_war,weariness,0.65,0.4,decisive_victory_a,strategic exhaustion,decisive shock,0.5745532924539991,political/military collapse of side B,17,20.7,28.2,12.1
+vietnam_war,weariness,0.8,0.4,decisive_victory_a,strategic exhaustion,decisive shock,0.5769582866248765,political/military collapse of side B,17,20.7,28.5,13.9
+wwi,weariness,0.2,0.4,negotiated_settlement,strategic exhaustion,decisive shock,0.5969752131897125,negotiated settlement,19,20.9,30.6,12.5
+wwi,weariness,0.35,0.4,negotiated_settlement,strategic exhaustion,decisive shock,0.5995850436228445,negotiated settlement,19,20.9,30.8,14.9
+wwi,weariness,0.5,0.4,negotiated_settlement,strategic exhaustion,decisive shock,0.6021772907765913,negotiated settlement,19,20.9,31.1,17.4
+wwi,weariness,0.65,0.4,negotiated_settlement,strategic exhaustion,decisive shock,0.6047439406941066,negotiated settlement,19,20.9,31.4,19.8
+wwi,weariness,0.8,0.4,negotiated_settlement,strategic exhaustion,decisive shock,0.6073977850437916,negotiated settlement,19,20.9,31.7,22.4
+gulf_war_1991,economic_hardship,0.015,0.03,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,economic_hardship,0.0262,0.03,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,economic_hardship,0.0375,0.03,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,economic_hardship,0.0488,0.03,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,economic_hardship,0.06,0.03,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+vietnam_war,economic_hardship,0.015,0.03,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,economic_hardship,0.0262,0.03,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,economic_hardship,0.0375,0.03,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,economic_hardship,0.0488,0.03,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,economic_hardship,0.06,0.03,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+wwi,economic_hardship,0.015,0.03,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+wwi,economic_hardship,0.0262,0.03,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+wwi,economic_hardship,0.0375,0.03,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+wwi,economic_hardship,0.0488,0.03,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+wwi,economic_hardship,0.06,0.03,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+gulf_war_1991,bombing,0.0075,0.015,decisive_victory_a,strategic exhaustion,decisive shock,0.6048524445252541,political/military collapse of side B,31,20.6,25.4,18.8
+gulf_war_1991,bombing,0.0131,0.015,decisive_victory_a,strategic exhaustion,decisive shock,0.605463562885202,political/military collapse of side B,31,20.6,25.4,18.8
+gulf_war_1991,bombing,0.0187,0.015,decisive_victory_a,strategic exhaustion,decisive shock,0.6061917293539836,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,bombing,0.0244,0.015,decisive_victory_a,strategic exhaustion,decisive shock,0.6068461329021976,political/military collapse of side B,31,20.6,25.6,18.8
+gulf_war_1991,bombing,0.03,0.015,decisive_victory_a,strategic exhaustion,decisive shock,0.6011834788515409,political/military collapse of side B,30,20.6,25.5,17.6
+vietnam_war,bombing,0.0075,0.015,decisive_victory_a,strategic exhaustion,decisive shock,0.5812969594410682,political/military collapse of side B,18,20.7,28.5,9.5
+vietnam_war,bombing,0.0131,0.015,decisive_victory_a,strategic exhaustion,decisive shock,0.5819632111395002,political/military collapse of side B,18,20.7,28.5,9.5
+vietnam_war,bombing,0.0187,0.015,decisive_victory_a,strategic exhaustion,decisive shock,0.5708899594617242,political/military collapse of side B,17,20.7,27.8,9.1
+vietnam_war,bombing,0.0244,0.015,decisive_victory_a,strategic exhaustion,decisive shock,0.5715529371677682,political/military collapse of side B,17,20.7,27.8,9.1
+vietnam_war,bombing,0.03,0.015,decisive_victory_a,strategic exhaustion,decisive shock,0.5721770895556834,political/military collapse of side B,17,20.7,27.9,9.1
+wwi,bombing,0.0075,0.015,negotiated_settlement,strategic exhaustion,decisive shock,0.6077724877545873,negotiated settlement,20,20.9,31.5,16.9
+wwi,bombing,0.0131,0.015,negotiated_settlement,strategic exhaustion,decisive shock,0.608798404201396,negotiated settlement,20,20.9,31.6,16.9
+wwi,bombing,0.0187,0.015,negotiated_settlement,strategic exhaustion,decisive shock,0.6010594709309007,negotiated settlement,19,20.9,31.0,15.7
+wwi,bombing,0.0244,0.015,negotiated_settlement,strategic exhaustion,decisive shock,0.6019390017311169,negotiated settlement,19,20.9,31.1,15.7
+wwi,bombing,0.03,0.015,negotiated_settlement,strategic exhaustion,decisive shock,0.6027793833073096,negotiated settlement,19,20.9,31.1,15.7
+gulf_war_1991,recon,0.002,0.004,decisive_victory_a,strategic exhaustion,decisive shock,0.6006661333286955,political/military collapse of side B,30,20.6,25.5,17.6
+gulf_war_1991,recon,0.0035,0.004,decisive_victory_a,strategic exhaustion,decisive shock,0.6060434338921983,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,recon,0.005,0.004,decisive_victory_a,strategic exhaustion,decisive shock,0.6051053895703966,political/military collapse of side B,31,20.6,25.4,18.8
+gulf_war_1991,recon,0.0065,0.004,decisive_victory_a,strategic exhaustion,decisive shock,0.6042512654433574,political/military collapse of side B,31,20.6,25.4,18.8
+gulf_war_1991,recon,0.008,0.004,decisive_victory_a,strategic exhaustion,decisive shock,0.6034293182013272,political/military collapse of side B,31,20.6,25.4,18.8
+vietnam_war,recon,0.002,0.004,decisive_victory_a,strategic exhaustion,decisive shock,0.5708785566085026,political/military collapse of side B,17,20.7,27.8,9.1
+vietnam_war,recon,0.0035,0.004,decisive_victory_a,strategic exhaustion,decisive shock,0.5705999030618094,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,recon,0.005,0.004,decisive_victory_a,strategic exhaustion,decisive shock,0.5819484938232905,political/military collapse of side B,18,20.7,28.5,9.5
+vietnam_war,recon,0.0065,0.004,decisive_victory_a,strategic exhaustion,decisive shock,0.5816125161254999,political/military collapse of side B,18,20.7,28.5,9.5
+vietnam_war,recon,0.008,0.004,decisive_victory_a,strategic exhaustion,decisive shock,0.5812751933492631,political/military collapse of side B,18,20.7,28.5,9.5
+wwi,recon,0.002,0.004,negotiated_settlement,strategic exhaustion,decisive shock,0.6008934323222835,negotiated settlement,19,20.9,31.0,15.7
+wwi,recon,0.0035,0.004,negotiated_settlement,strategic exhaustion,decisive shock,0.6005788431342215,negotiated settlement,19,20.9,30.9,15.7
+wwi,recon,0.005,0.004,negotiated_settlement,strategic exhaustion,decisive shock,0.6088960582267235,negotiated settlement,20,20.9,31.6,16.9
+wwi,recon,0.0065,0.004,negotiated_settlement,strategic exhaustion,decisive shock,0.6085139027412111,negotiated settlement,20,20.9,31.5,16.9
+wwi,recon,0.008,0.004,negotiated_settlement,strategic exhaustion,decisive shock,0.6081308179530552,negotiated settlement,20,20.9,31.5,16.9
+gulf_war_1991,fatigue_denominator,30.0,60.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6171087720964675,political/military collapse of side B,30,20.7,26.9,19.4
+gulf_war_1991,fatigue_denominator,52.5,60.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6021344925789364,political/military collapse of side B,30,20.6,25.6,17.9
+gulf_war_1991,fatigue_denominator,75.0,60.0,decisive_victory_a,strategic exhaustion,decisive shock,0.601767026355932,political/military collapse of side B,31,20.6,25.1,18.4
+gulf_war_1991,fatigue_denominator,97.5,60.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6007973723043762,political/military collapse of side B,33,20.6,25.0,18.6
+gulf_war_1991,fatigue_denominator,120.0,60.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6179749513634197,political/military collapse of side B,35,20.6,25.5,22.8
+vietnam_war,fatigue_denominator,30.0,60.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5777558725950485,political/military collapse of side B,16,20.7,28.3,9.4
+vietnam_war,fatigue_denominator,52.5,60.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5729695251629334,political/military collapse of side B,17,20.7,27.9,9.3
+vietnam_war,fatigue_denominator,75.0,60.0,decisive_victory_a,strategic exhaustion,decisive shock,0.578445687080311,political/military collapse of side B,18,20.7,28.3,9.3
+vietnam_war,fatigue_denominator,97.5,60.0,decisive_victory_a,strategic exhaustion,decisive shock,0.579458882186231,political/military collapse of side B,19,20.6,28.5,9.1
+vietnam_war,fatigue_denominator,120.0,60.0,decisive_victory_a,strategic exhaustion,decisive shock,0.577152697401427,political/military collapse of side B,19,20.6,28.3,9.0
+wwi,fatigue_denominator,30.0,60.0,negotiated_settlement,strategic exhaustion,decisive shock,0.6100823489520125,negotiated settlement,18,21.0,31.7,17.5
+wwi,fatigue_denominator,52.5,60.0,negotiated_settlement,strategic exhaustion,decisive shock,0.6031438433822877,negotiated settlement,19,20.9,31.2,16.0
+wwi,fatigue_denominator,75.0,60.0,negotiated_settlement,strategic exhaustion,decisive shock,0.610842510830123,negotiated settlement,21,20.9,32.0,17.2
+wwi,fatigue_denominator,97.5,60.0,negotiated_settlement,strategic exhaustion,decisive shock,0.6147982986018996,negotiated settlement,22,20.9,32.2,16.9
+wwi,fatigue_denominator,120.0,60.0,negotiated_settlement,strategic exhaustion,decisive shock,0.6180889544942052,negotiated settlement,23,20.9,32.6,17.1
+gulf_war_1991,shock_damage,2.5,5.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6756568273202598,political/military collapse of side B,55,20.8,35.3,29.2
+gulf_war_1991,shock_damage,4.375,5.0,decisive_victory_a,strategic exhaustion,decisive shock,0.618782668150065,political/military collapse of side B,35,20.7,26.6,22.9
+gulf_war_1991,shock_damage,6.25,5.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5960346361341728,political/military collapse of side B,29,20.6,24.8,17.8
+gulf_war_1991,shock_damage,8.125,5.0,decisive_victory_a,strategic exhaustion,decisive shock,0.605922536666297,political/military collapse of side B,25,20.6,23.6,20.4
+gulf_war_1991,shock_damage,10.0,5.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5847346402601961,political/military collapse of side B,20,20.5,21.7,18.0
+vietnam_war,shock_damage,2.5,5.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5921123954995017,political/military collapse of side B,20,20.7,29.8,10.0
+vietnam_war,shock_damage,4.375,5.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5803765068839665,political/military collapse of side B,18,20.7,28.5,9.4
+vietnam_war,shock_damage,6.25,5.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5742732572483511,political/military collapse of side B,17,20.7,27.7,9.3
+vietnam_war,shock_damage,8.125,5.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5719557310692618,political/military collapse of side B,16,20.7,27.2,9.0
+vietnam_war,shock_damage,10.0,5.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5649731010860233,political/military collapse of side B,15,20.7,26.4,9.3
+wwi,shock_damage,2.5,5.0,negotiated_settlement,strategic exhaustion,decisive shock,0.5930919333767583,negotiated settlement,19,20.9,31.0,15.1
+wwi,shock_damage,4.375,5.0,negotiated_settlement,strategic exhaustion,decisive shock,0.5985995713714576,negotiated settlement,19,20.9,30.9,15.6
+wwi,shock_damage,6.25,5.0,negotiated_settlement,strategic exhaustion,decisive shock,0.6124583395984646,negotiated settlement,20,20.9,31.6,17.2
+wwi,shock_damage,8.125,5.0,negotiated_settlement,strategic exhaustion,decisive shock,0.617369814671671,negotiated settlement,20,20.9,31.6,17.7
+wwi,shock_damage,10.0,5.0,negotiated_settlement,strategic exhaustion,decisive shock,0.6221241162097014,negotiated settlement,20,20.9,31.5,18.2
+gulf_war_1991,retaliation,2.0,4.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6053507507471478,political/military collapse of side B,31,20.4,24.5,18.8
+gulf_war_1991,retaliation,3.5,4.0,decisive_victory_a,strategic exhaustion,decisive shock,0.605641851991706,political/military collapse of side B,31,20.6,25.2,18.8
+gulf_war_1991,retaliation,5.0,4.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6058769858099734,political/military collapse of side B,31,20.7,26.0,18.8
+gulf_war_1991,retaliation,6.5,4.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6057219927447779,political/military collapse of side B,31,20.9,26.8,18.8
+gulf_war_1991,retaliation,8.0,4.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6056302668046508,political/military collapse of side B,31,21.1,27.7,18.8
+vietnam_war,retaliation,2.0,4.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5700526210799649,political/military collapse of side B,17,20.7,27.6,9.1
+vietnam_war,retaliation,3.5,4.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5703956280961817,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,retaliation,5.0,4.0,decisive_victory_a,strategic exhaustion,decisive shock,0.570686283538481,political/military collapse of side B,17,20.7,27.8,9.1
+vietnam_war,retaliation,6.5,4.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5709767169670625,political/military collapse of side B,17,20.7,27.9,9.1
+vietnam_war,retaliation,8.0,4.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5712855276194078,political/military collapse of side B,17,20.7,28.0,9.1
+wwi,retaliation,2.0,4.0,negotiated_settlement,strategic exhaustion,decisive shock,0.6241601993403854,negotiated settlement,22,20.8,32.6,17.8
+wwi,retaliation,3.5,4.0,negotiated_settlement,strategic exhaustion,decisive shock,0.6153391845386157,negotiated settlement,21,20.9,32.3,17.7
+wwi,retaliation,5.0,4.0,negotiated_settlement,strategic exhaustion,decisive shock,0.592305309266405,negotiated settlement,18,21.0,30.5,15.7
+wwi,retaliation,6.5,4.0,negotiated_settlement,strategic exhaustion,decisive shock,0.5914868383775652,negotiated settlement,18,21.2,30.8,15.7
+wwi,retaliation,8.0,4.0,negotiated_settlement,strategic exhaustion,decisive shock,0.5915678467990643,negotiated settlement,18,21.3,31.1,15.7
+gulf_war_1991,shock_industrial_factor,0.125,0.25,decisive_victory_a,strategic exhaustion,decisive shock,0.6043846588108936,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,shock_industrial_factor,0.2188,0.25,decisive_victory_a,strategic exhaustion,decisive shock,0.6053731539647613,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,shock_industrial_factor,0.3125,0.25,decisive_victory_a,strategic exhaustion,decisive shock,0.6063687535142078,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,shock_industrial_factor,0.4062,0.25,decisive_victory_a,strategic exhaustion,decisive shock,0.6010371603257416,political/military collapse of side B,30,20.6,25.3,17.6
+gulf_war_1991,shock_industrial_factor,0.5,0.25,decisive_victory_a,strategic exhaustion,decisive shock,0.6019834044709861,political/military collapse of side B,30,20.6,25.3,17.6
+vietnam_war,shock_industrial_factor,0.125,0.25,decisive_victory_a,strategic exhaustion,decisive shock,0.5820143267397389,political/military collapse of side B,18,20.7,28.5,9.5
+vietnam_war,shock_industrial_factor,0.2188,0.25,decisive_victory_a,strategic exhaustion,decisive shock,0.5704720600498303,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,shock_industrial_factor,0.3125,0.25,decisive_victory_a,strategic exhaustion,decisive shock,0.5705113566975799,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,shock_industrial_factor,0.4062,0.25,decisive_victory_a,strategic exhaustion,decisive shock,0.570550646155645,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,shock_industrial_factor,0.5,0.25,decisive_victory_a,strategic exhaustion,decisive shock,0.5705899284259984,political/military collapse of side B,17,20.7,27.7,9.1
+wwi,shock_industrial_factor,0.125,0.25,negotiated_settlement,strategic exhaustion,decisive shock,0.6004103359508601,negotiated settlement,19,20.9,30.9,15.7
+wwi,shock_industrial_factor,0.2188,0.25,negotiated_settlement,strategic exhaustion,decisive shock,0.6004444187888842,negotiated settlement,19,20.9,30.9,15.7
+wwi,shock_industrial_factor,0.3125,0.25,negotiated_settlement,strategic exhaustion,decisive shock,0.6004784958132428,negotiated settlement,19,20.9,30.9,15.7
+wwi,shock_industrial_factor,0.4062,0.25,negotiated_settlement,strategic exhaustion,decisive shock,0.6005125670254227,negotiated settlement,19,20.9,30.9,15.7
+wwi,shock_industrial_factor,0.5,0.25,negotiated_settlement,strategic exhaustion,decisive shock,0.6005466324269111,negotiated settlement,19,20.9,30.9,15.7
+gulf_war_1991,shock_political_factor,0.1,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.6022339449740622,political/military collapse of side B,31,20.6,25.5,14.3
+gulf_war_1991,shock_political_factor,0.175,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.604843048158138,political/military collapse of side B,31,20.6,25.5,17.7
+gulf_war_1991,shock_political_factor,0.25,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.6074181461384166,political/military collapse of side B,31,20.6,25.5,21.1
+gulf_war_1991,shock_political_factor,0.325,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.6099598994103117,political/military collapse of side B,31,20.6,25.5,24.5
+gulf_war_1991,shock_political_factor,0.4,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.6124689514738834,political/military collapse of side B,31,20.6,25.5,27.9
+vietnam_war,shock_political_factor,0.1,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.5701285261638791,political/military collapse of side B,17,20.7,27.7,8.7
+vietnam_war,shock_political_factor,0.175,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.5703960568272683,political/military collapse of side B,17,20.7,27.7,9.0
+vietnam_war,shock_political_factor,0.25,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.5706632547021632,political/military collapse of side B,17,20.7,27.7,9.3
+vietnam_war,shock_political_factor,0.325,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.5709301204091242,political/military collapse of side B,17,20.7,27.7,9.6
+vietnam_war,shock_political_factor,0.4,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.5711966545671703,political/military collapse of side B,17,20.7,27.7,9.9
+wwi,shock_political_factor,0.1,0.2,negotiated_settlement,strategic exhaustion,decisive shock,0.5998341575052353,negotiated settlement,19,20.9,30.9,14.9
+wwi,shock_political_factor,0.175,0.2,negotiated_settlement,strategic exhaustion,decisive shock,0.6003005543346542,negotiated settlement,19,20.9,30.9,15.5
+wwi,shock_political_factor,0.25,0.2,negotiated_settlement,strategic exhaustion,decisive shock,0.6007658652504538,negotiated settlement,19,20.9,30.9,16.2
+wwi,shock_political_factor,0.325,0.2,negotiated_settlement,strategic exhaustion,decisive shock,0.60123009404073,negotiated settlement,19,20.9,30.9,16.8
+wwi,shock_political_factor,0.4,0.2,negotiated_settlement,strategic exhaustion,decisive shock,0.6016932444759796,negotiated settlement,19,20.9,30.9,17.4
+gulf_war_1991,military_shock_factor,25.0,50.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6093075614172984,political/military collapse of side B,31,20.3,25.5,18.8
+gulf_war_1991,military_shock_factor,43.75,50.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6066167514631526,political/military collapse of side B,31,20.5,25.5,18.8
+gulf_war_1991,military_shock_factor,62.5,50.0,decisive_victory_a,strategic exhaustion,decisive shock,0.603947374259159,political/military collapse of side B,31,20.8,25.5,18.8
+gulf_war_1991,military_shock_factor,81.25,50.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6013013869677926,political/military collapse of side B,31,21.0,25.5,18.8
+gulf_war_1991,military_shock_factor,100.0,50.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5986799436501233,political/military collapse of side B,31,21.2,25.5,18.8
+vietnam_war,military_shock_factor,25.0,50.0,decisive_victory_a,strategic exhaustion,decisive shock,0.57450816522145,political/military collapse of side B,17,20.3,27.7,9.1
+vietnam_war,military_shock_factor,43.75,50.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5714866691855774,political/military collapse of side B,17,20.6,27.7,9.1
+vietnam_war,military_shock_factor,62.5,50.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5684954039769131,political/military collapse of side B,17,20.8,27.7,9.1
+vietnam_war,military_shock_factor,81.25,50.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5654887041688652,political/military collapse of side B,17,21.1,27.7,9.1
+vietnam_war,military_shock_factor,100.0,50.0,decisive_victory_a,strategic exhaustion,decisive shock,0.562563805125748,political/military collapse of side B,17,21.4,27.7,9.1
+wwi,military_shock_factor,25.0,50.0,negotiated_settlement,strategic exhaustion,decisive shock,0.6057614498925133,negotiated settlement,19,20.5,30.9,15.7
+wwi,military_shock_factor,43.75,50.0,negotiated_settlement,strategic exhaustion,decisive shock,0.6017525512261187,negotiated settlement,19,20.8,30.9,15.7
+wwi,military_shock_factor,62.5,50.0,negotiated_settlement,strategic exhaustion,decisive shock,0.5977915795238362,negotiated settlement,19,21.2,30.9,15.7
+wwi,military_shock_factor,81.25,50.0,negotiated_settlement,strategic exhaustion,decisive shock,0.5938835929567463,negotiated settlement,19,21.5,30.9,15.7
+wwi,military_shock_factor,100.0,50.0,negotiated_settlement,strategic exhaustion,decisive shock,0.5900287014711662,negotiated settlement,19,21.8,30.9,15.7
+gulf_war_1991,capital_bonus,15.0,30.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,capital_bonus,26.25,30.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,capital_bonus,37.5,30.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,capital_bonus,48.75,30.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,capital_bonus,60.0,30.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+vietnam_war,capital_bonus,15.0,30.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,capital_bonus,26.25,30.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,capital_bonus,37.5,30.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,capital_bonus,48.75,30.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,capital_bonus,60.0,30.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+wwi,capital_bonus,15.0,30.0,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+wwi,capital_bonus,26.25,30.0,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+wwi,capital_bonus,37.5,30.0,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+wwi,capital_bonus,48.75,30.0,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+wwi,capital_bonus,60.0,30.0,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+gulf_war_1991,surrender_bonus,10.0,20.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,surrender_bonus,17.5,20.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,surrender_bonus,25.0,20.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,surrender_bonus,32.5,20.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,surrender_bonus,40.0,20.0,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+vietnam_war,surrender_bonus,10.0,20.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,surrender_bonus,17.5,20.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,surrender_bonus,25.0,20.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,surrender_bonus,32.5,20.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,surrender_bonus,40.0,20.0,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+wwi,surrender_bonus,10.0,20.0,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+wwi,surrender_bonus,17.5,20.0,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+wwi,surrender_bonus,25.0,20.0,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+wwi,surrender_bonus,32.5,20.0,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+wwi,surrender_bonus,40.0,20.0,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+gulf_war_1991,ses_mil_weight,0.15,0.3,decisive_victory_a,strategic exhaustion,decisive shock,0.6045505347566,political/military collapse of side B,31,20.6,25.0,18.8
+gulf_war_1991,ses_mil_weight,0.2625,0.3,decisive_victory_a,strategic exhaustion,decisive shock,0.6054510441351694,political/military collapse of side B,31,20.6,25.4,18.8
+gulf_war_1991,ses_mil_weight,0.375,0.3,decisive_victory_a,strategic exhaustion,decisive shock,0.6061611148003967,political/military collapse of side B,31,20.6,25.6,18.8
+gulf_war_1991,ses_mil_weight,0.4875,0.3,decisive_victory_a,strategic exhaustion,decisive shock,0.606745711121657,political/military collapse of side B,31,20.6,25.9,18.8
+gulf_war_1991,ses_mil_weight,0.6,0.3,decisive_victory_a,strategic exhaustion,decisive shock,0.6072544279861104,political/military collapse of side B,31,20.6,26.1,18.8
+vietnam_war,ses_mil_weight,0.15,0.3,decisive_victory_a,strategic exhaustion,decisive shock,0.5691657152514625,political/military collapse of side B,17,20.7,27.3,9.1
+vietnam_war,ses_mil_weight,0.2625,0.3,decisive_victory_a,strategic exhaustion,decisive shock,0.5701956126146583,political/military collapse of side B,17,20.7,27.6,9.1
+vietnam_war,ses_mil_weight,0.375,0.3,decisive_victory_a,strategic exhaustion,decisive shock,0.5710114104838803,political/military collapse of side B,17,20.7,27.9,9.1
+vietnam_war,ses_mil_weight,0.4875,0.3,decisive_victory_a,strategic exhaustion,decisive shock,0.571667047860099,political/military collapse of side B,17,20.7,28.1,9.1
+vietnam_war,ses_mil_weight,0.6,0.3,decisive_victory_a,strategic exhaustion,decisive shock,0.5722060819743815,political/military collapse of side B,17,20.7,28.3,9.1
+wwi,ses_mil_weight,0.15,0.3,negotiated_settlement,strategic exhaustion,decisive shock,0.5981830397895876,negotiated settlement,19,20.9,30.1,15.7
+wwi,ses_mil_weight,0.2625,0.3,negotiated_settlement,strategic exhaustion,decisive shock,0.5999526525698845,negotiated settlement,19,20.9,30.8,15.7
+wwi,ses_mil_weight,0.375,0.3,negotiated_settlement,strategic exhaustion,decisive shock,0.6013467490467528,negotiated settlement,19,20.9,31.3,15.7
+wwi,ses_mil_weight,0.4875,0.3,negotiated_settlement,strategic exhaustion,decisive shock,0.6024733617585514,negotiated settlement,19,20.9,31.7,15.7
+wwi,ses_mil_weight,0.6,0.3,negotiated_settlement,strategic exhaustion,decisive shock,0.6033965043211902,negotiated settlement,19,20.9,32.0,15.7
+gulf_war_1991,ses_econ_weight,0.15,0.3,decisive_victory_a,strategic exhaustion,decisive shock,0.6068817516427983,political/military collapse of side B,31,20.6,25.9,18.8
+gulf_war_1991,ses_econ_weight,0.2625,0.3,decisive_victory_a,strategic exhaustion,decisive shock,0.6059663447114522,political/military collapse of side B,31,20.6,25.6,18.8
+gulf_war_1991,ses_econ_weight,0.375,0.3,decisive_victory_a,strategic exhaustion,decisive shock,0.6052391874062076,political/military collapse of side B,31,20.6,25.3,18.8
+gulf_war_1991,ses_econ_weight,0.4875,0.3,decisive_victory_a,strategic exhaustion,decisive shock,0.60464736119955,political/military collapse of side B,31,20.6,25.1,18.8
+gulf_war_1991,ses_econ_weight,0.6,0.3,decisive_victory_a,strategic exhaustion,decisive shock,0.6041623252391535,political/military collapse of side B,31,20.6,24.9,18.8
+vietnam_war,ses_econ_weight,0.15,0.3,decisive_victory_a,strategic exhaustion,decisive shock,0.5681362566032365,political/military collapse of side B,17,20.7,27.0,9.1
+vietnam_war,ses_econ_weight,0.2625,0.3,decisive_victory_a,strategic exhaustion,decisive shock,0.5699657194661776,political/military collapse of side B,17,20.7,27.6,9.1
+vietnam_war,ses_econ_weight,0.375,0.3,decisive_victory_a,strategic exhaustion,decisive shock,0.571413301799349,political/military collapse of side B,17,20.7,28.0,9.1
+vietnam_war,ses_econ_weight,0.4875,0.3,decisive_victory_a,strategic exhaustion,decisive shock,0.5725742669738711,political/military collapse of side B,17,20.7,28.4,9.1
+vietnam_war,ses_econ_weight,0.6,0.3,decisive_victory_a,strategic exhaustion,decisive shock,0.5735327181048153,political/military collapse of side B,17,20.7,28.7,9.1
+wwi,ses_econ_weight,0.15,0.3,negotiated_settlement,strategic exhaustion,decisive shock,0.5982619237304061,negotiated settlement,19,20.9,30.1,15.7
+wwi,ses_econ_weight,0.2625,0.3,negotiated_settlement,strategic exhaustion,decisive shock,0.5999777332852704,negotiated settlement,19,20.9,30.8,15.7
+wwi,ses_econ_weight,0.375,0.3,negotiated_settlement,strategic exhaustion,decisive shock,0.6013148421489554,negotiated settlement,19,20.9,31.3,15.7
+wwi,ses_econ_weight,0.4875,0.3,negotiated_settlement,strategic exhaustion,decisive shock,0.6023975151468655,negotiated settlement,19,20.9,31.7,15.7
+wwi,ses_econ_weight,0.6,0.3,negotiated_settlement,strategic exhaustion,decisive shock,0.6032822121413304,negotiated settlement,19,20.9,32.0,15.7
+gulf_war_1991,ses_pol_weight,0.1,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.6109533028241001,political/military collapse of side B,31,20.6,27.5,18.8
+gulf_war_1991,ses_pol_weight,0.175,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.6069352277940906,political/military collapse of side B,31,20.6,25.9,18.8
+gulf_war_1991,ses_pol_weight,0.25,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.603423320942255,political/military collapse of side B,31,20.6,24.6,18.8
+gulf_war_1991,ses_pol_weight,0.325,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.6003272212275135,political/military collapse of side B,31,20.6,23.5,18.8
+gulf_war_1991,ses_pol_weight,0.4,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.5975981566201648,political/military collapse of side B,31,20.6,22.5,18.8
+vietnam_war,ses_pol_weight,0.1,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.5749783732602887,political/military collapse of side B,17,20.7,29.2,9.1
+vietnam_war,ses_pol_weight,0.175,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.5715367389016417,political/military collapse of side B,17,20.7,28.1,9.1
+vietnam_war,ses_pol_weight,0.25,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.5685337251206636,political/military collapse of side B,17,20.7,27.1,9.1
+vietnam_war,ses_pol_weight,0.325,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.5658964920488592,political/military collapse of side B,17,20.7,26.3,9.1
+vietnam_war,ses_pol_weight,0.4,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.563564340340914,political/military collapse of side B,17,20.7,25.6,9.1
+wwi,ses_pol_weight,0.1,0.2,negotiated_settlement,strategic exhaustion,decisive shock,0.6051137281950671,negotiated settlement,19,20.9,32.7,15.7
+wwi,ses_pol_weight,0.175,0.2,negotiated_settlement,strategic exhaustion,decisive shock,0.6015383628311095,negotiated settlement,19,20.9,31.3,15.7
+wwi,ses_pol_weight,0.25,0.2,negotiated_settlement,strategic exhaustion,decisive shock,0.5984251364121863,negotiated settlement,19,20.9,30.2,15.7
+wwi,ses_pol_weight,0.325,0.2,negotiated_settlement,strategic exhaustion,decisive shock,0.5956883568990311,negotiated settlement,19,20.9,29.2,15.7
+wwi,ses_pol_weight,0.4,0.2,negotiated_settlement,strategic exhaustion,decisive shock,0.5932659501038505,negotiated settlement,19,20.9,28.3,15.7
+gulf_war_1991,ses_duration_weight,0.1,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.6003872174346417,political/military collapse of side B,31,20.6,23.5,18.8
+gulf_war_1991,ses_duration_weight,0.175,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.6044741359678357,political/military collapse of side B,31,20.6,25.0,18.8
+gulf_war_1991,ses_duration_weight,0.25,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.607984453545643,political/military collapse of side B,31,20.6,26.3,18.8
+gulf_war_1991,ses_duration_weight,0.325,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.6109786630033961,political/military collapse of side B,31,20.6,27.5,18.8
+gulf_war_1991,ses_duration_weight,0.4,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.6135522373361552,political/military collapse of side B,31,20.6,28.5,18.8
+vietnam_war,ses_duration_weight,0.1,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.5694121588355017,political/military collapse of side B,17,20.7,27.4,9.1
+vietnam_war,ses_duration_weight,0.175,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.5702357128876884,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,ses_duration_weight,0.25,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.5709461579768284,political/military collapse of side B,17,20.7,27.9,9.1
+vietnam_war,ses_duration_weight,0.325,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.571564159713588,political/military collapse of side B,17,20.7,28.1,9.1
+vietnam_war,ses_duration_weight,0.4,0.2,decisive_victory_a,strategic exhaustion,decisive shock,0.5720954298158746,political/military collapse of side B,17,20.7,28.2,9.1
+wwi,ses_duration_weight,0.1,0.2,negotiated_settlement,strategic exhaustion,decisive shock,0.5999456068593063,negotiated settlement,19,20.9,30.7,15.7
+wwi,ses_duration_weight,0.175,0.2,negotiated_settlement,strategic exhaustion,decisive shock,0.6003361281788074,negotiated settlement,19,20.9,30.9,15.7
+wwi,ses_duration_weight,0.25,0.2,negotiated_settlement,strategic exhaustion,decisive shock,0.6006787187488002,negotiated settlement,19,20.9,31.0,15.7
+wwi,ses_duration_weight,0.325,0.2,negotiated_settlement,strategic exhaustion,decisive shock,0.6009663328747995,negotiated settlement,19,20.9,31.1,15.7
+wwi,ses_duration_weight,0.4,0.2,negotiated_settlement,strategic exhaustion,decisive shock,0.601219230824441,negotiated settlement,19,20.9,31.2,15.7

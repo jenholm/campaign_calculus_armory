@@ -1,0 +1,707 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.17)  22 JUL 2026 11:15
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**manuscript.tex
+(./manuscript.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen149
+))
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen150
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count283
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count284
+\leftroot@=\count285
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count286
+\DOTSCASE@=\count287
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count288
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count289
+\dotsspace@=\muskip17
+\c@parentequation=\count290
+\dspbrk@lvl=\count291
+\tag@help=\toks18
+\row@=\count292
+\column@=\count293
+\maxfields@=\count294
+\andhelp@=\toks19
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
+\@envbody=\toks20
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen158
+\lightrulewidth=\dimen159
+\cmidrulewidth=\dimen160
+\belowrulesep=\dimen161
+\belowbottomsep=\dimen162
+\aboverulesep=\dimen163
+\abovetopsep=\dimen164
+\cmidrulesep=\dimen165
+\cmidrulekern=\dimen166
+\defaultaddspace=\dimen167
+\@cmidla=\count295
+\@cmidlb=\count296
+\@aboverulesep=\dimen168
+\@belowrulesep=\dimen169
+\@thisruleclass=\count297
+\@lastruleclass=\count298
+\@thisrulewidth=\dimen170
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen171
+\Gin@req@width=\dimen172
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.st
+y
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/home/jenholm/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestrin
+g.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/home/jenholm/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count299
+) (/home/jenholm/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count300
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen173
+\Hy@linkcounter=\count301
+\Hy@pagecounter=\count302
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count303
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4468.
+\c@Hy@tempcnt=\count304
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4807.
+\XeTeXLinkMargin=\dimen174
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count305
+\Field@Width=\dimen175
+\Fld@charsize=\dimen176
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
+\Hy@abspage=\count306
+\c@Item=\count307
+\c@Hfootnote=\count308
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
+\Fld@listcount=\count309
+\c@bookmark@seq@number=\count310
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.
+sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.
+sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip54
+) (/home/jenholm/texlive/2026/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip55
+\bibsep=\skip56
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count311
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count312
+\Gm@cntv=\count313
+\c@Gm@tempcnt=\count314
+\Gm@bindingoffset=\dimen177
+\Gm@wd@mp=\dimen178
+\Gm@odd@mp=\dimen179
+\Gm@even@mp=\dimen180
+\Gm@layoutwidth=\dimen181
+\Gm@layoutheight=\dimen182
+\Gm@layouthoffset=\dimen183
+\Gm@layoutvoffset=\dimen184
+\Gm@dimlist=\toks23
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count315
+\float@exts=\toks24
+\float@box=\box55
+\@float@everytoks=\toks25
+\@floatcapt=\box56
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen185
+\captionmargin=\dimen186
+\caption@leftmargin=\dimen187
+\caption@rightmargin=\dimen188
+\caption@width=\dimen189
+\caption@indent=\dimen190
+\caption@parindent=\dimen191
+\caption@hangindent=\dimen192
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count316
+\c@continuedfloat=\count317
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count318
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count319
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen193
+\ar@mcellbox=\box57
+\extrarowheight=\dimen194
+\NC@list=\toks26
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box58
+)
+\TX@col@width=\dimen195
+\TX@old@table=\dimen196
+\TX@old@col=\dimen197
+\TX@target=\dimen198
+\TX@delta=\dimen199
+\TX@cols=\count320
+\TX@ftn=\toks27
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip59
+\RaggedLeftLeftskip=\skip60
+\RaggedRightLeftskip=\skip61
+\CenteringRightskip=\skip62
+\RaggedLeftRightskip=\skip63
+\RaggedRightRightskip=\skip64
+\CenteringParfillskip=\skip65
+\RaggedLeftParfillskip=\skip66
+\RaggedRightParfillskip=\skip67
+\JustifyingParfillskip=\skip68
+\CenteringParindent=\skip69
+\RaggedLeftParindent=\skip70
+\RaggedRightParindent=\skip71
+\JustifyingParindent=\skip72
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 29.
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count321
+) (./manuscript.aux)
+\openout1 = `manuscript.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count322
+\scratchdimen=\dimen256
+\scratchbox=\box59
+\nofMPsegments=\count323
+\nofMParguments=\count324
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count325
+\MPscratchDim=\dimen257
+\MPnumerator=\count326
+\makeMPintoPDFobject=\count327
+\everyMPtoPDFconversion=\toks29
+)
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)) (/home/jenholm/texlive/2026/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+Package hyperref Info: Link coloring ON on input line 40.
+
+(./manuscript.out) (./manuscript.out)
+\@outlinefile=\write3
+\openout3 = `manuscript.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
+
+
+(/home/jenholm/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(./sections/abstract.tex) (./sections/introduction.tex [1
+
+{/home/jenholm/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<figures/fig_01_conceptual_model.png, id=368, 860.013pt x 570.933pt>
+File: figures/fig_01_conceptual_model.png Graphic file (type png)
+<use figures/fig_01_conceptual_model.png>
+Package pdftex.def Info: figures/fig_01_conceptual_model.png  used on input lin
+e 9.
+(pdftex.def)             Requested size: 362.37569pt x 240.56557pt.
+ [2 <./figures/fig_01_conceptual_model.png>] [3]) [4] (./sections/background.te
+x [5
+
+]) [6] [7]
+(./sections/data.tex
+Underfull \hbox (badness 10000) in alignment at lines 33--33
+[][][][][] 
+ []
+
+[8
+
+] [9]) [10] (./sections/methods.tex [11
+
+] [12] [13] [14] [15]
+<figures/fig_02_observed_vs_predictive_dss.png, id=537, 1004.553pt x 497.2176pt
+>
+File: figures/fig_02_observed_vs_predictive_dss.png Graphic file (type png)
+<use figures/fig_02_observed_vs_predictive_dss.png>
+Package pdftex.def Info: figures/fig_02_observed_vs_predictive_dss.png  used on
+ input line 180.
+(pdftex.def)             Requested size: 362.37569pt x 179.36237pt.
+ [16 <./figures/fig_02_observed_vs_predictive_dss.png>]
+Overfull \hbox (1.44499pt too wide) detected at line 197
+[][][][][]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 ) = []  []100\OML/
+cmm/m/it/12 ;  [] \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 50 + \U/msb/m/n/12 1\OT1
+/cmr/m/n/12 [[](\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 < \OT1/cmr
+/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 3 \OMS/cmsy/m/n/12 ^^A []\OT1/cmr/m/
+n/12 (0)] \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 30 + \U/msb/m/n/12 1\OT1/cmr/m/n
+/12 [[](\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 < \OT1/cmr/m/n/12 
+20] \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 20[]
+ []
+
+[17] [18]
+Overfull \hbox (1.24776pt too wide) in paragraph at lines 274--275
+\OT1/cmr/m/n/12 not a sys-tem of dif-fer-en-tial equa-tions fit-ted to em-pir-i
+-cal data. Its co-ef-fi-cients are literature-
+ []
+
+[19] [20]) [21] (./sections/results.tex
+<figures/fig_05_dss_vs_ses_scatter.png, id=585, 582.978pt x 505.89pt>
+File: figures/fig_05_dss_vs_ses_scatter.png Graphic file (type png)
+<use figures/fig_05_dss_vs_ses_scatter.png>
+Package pdftex.def Info: figures/fig_05_dss_vs_ses_scatter.png  used on input l
+ine 13.
+(pdftex.def)             Requested size: 362.37569pt x 314.45906pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]|\OT1/cmr/m/n/12 LR misses many
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]|\OT1/cmr/m/n/12 RF sub-stan-tially
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]|\OT1/cmr/m/n/12 RF dis-crim-i-nates
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+\OT1/cmr/m/n/12 well; LR barely
+ []
+
+[22
+
+] [23 <./figures/fig_05_dss_vs_ses_scatter.png>]
+<figures/fig_03_baseline_comparison.png, id=606, 716.9184pt x 353.8821pt>
+File: figures/fig_03_baseline_comparison.png Graphic file (type png)
+<use figures/fig_03_baseline_comparison.png>
+Package pdftex.def Info: figures/fig_03_baseline_comparison.png  used on input 
+line 100.
+(pdftex.def)             Requested size: 362.37569pt x 178.87372pt.
+ [24 <./figures/fig_03_baseline_comparison.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]|\OT1/cmr/bx/n/12 Dominant Mech-a-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]|\OT1/cmr/m/n/12 Strategic ex-haus-tion
+ []
+
+
+Underfull \hbox (badness 1867) in paragraph at lines 137--137
+\OT1/cmr/m/n/12 with de-ci-sive ac-cel-er-a-
+ []
+
+[25] [26] [27]
+<figures/fig_08_sensitivity_heatmap.png, id=633, 675.4836pt x 424.4658pt>
+File: figures/fig_08_sensitivity_heatmap.png Graphic file (type png)
+<use figures/fig_08_sensitivity_heatmap.png>
+Package pdftex.def Info: figures/fig_08_sensitivity_heatmap.png  used on input 
+line 186.
+(pdftex.def)             Requested size: 362.37569pt x 227.71196pt.
+<figures/fig_09_internal_coefficient_sensitivity.png, id=634, 574.7874pt x 858.
+5676pt>
+File: figures/fig_09_internal_coefficient_sensitivity.png Graphic file (type pn
+g)
+<use figures/fig_09_internal_coefficient_sensitivity.png>
+Package pdftex.def Info: figures/fig_09_internal_coefficient_sensitivity.png  u
+sed on input line 193.
+(pdftex.def)             Requested size: 362.37569pt x 541.28036pt.
+ [28]
+Underfull \hbox (badness 10000) in alignment at lines 227--227
+[][][][][] 
+ []
+
+[29 <./figures/fig_08_sensitivity_heatmap.png>] [30]) [31] [32 <./figures/fig_0
+9_internal_coefficient_sensitivity.png>] (./sections/discussion.tex
+Underfull \hbox (badness 2626) in paragraph at lines 30--30
+\OT1/cmr/m/n/8 (Bar-barossa fail-ure, Mid-way, Nor-mandy,
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 30--30
+[]|\OT1/cmr/m/n/8 Strategic ex-haus-tion: eight years of at-
+ []
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 30--30
+\OT1/cmr/m/n/8 tri-tional war-fare with-out de-ci-sive break-
+ []
+
+[33
+
+] [34] [35] [36]) [37] (./sections/falsification.tex) [38
+
+]
+(./sections/limitations.tex [39
+
+]) [40] [41] (./sections/conclusion.tex)
+[42
+
+] (./manuscript.bbl [43
+
+]) (./sections/appendix.tex
+(./sections/generated/case_inventory_tables.tex
+Underfull \hbox (badness 10000) in alignment at lines 42--42
+[][][][][][] 
+ []
+
+) [44] [45] [46] (./tables/blind_validation_table.tex) [47]
+<figures/fig_04_blind_validation.png, id=841, 1075.1367pt x 502.5174pt>
+File: figures/fig_04_blind_validation.png Graphic file (type png)
+<use figures/fig_04_blind_validation.png>
+Package pdftex.def Info: figures/fig_04_blind_validation.png  used on input lin
+e 118.
+(pdftex.def)             Requested size: 362.37569pt x 169.37376pt.
+ [48] [49 <./figures/fig_04_blind_validation.png>] (./tables/noise_sensitivity_
+table.tex) [50]
+(./tables/statistical_model_audit.tex) [51]) (./sections/supplementary.tex
+[52]
+<figures/fig_06_trajectory_examples.png, id=874, 820.2645pt x 463.7325pt>
+File: figures/fig_06_trajectory_examples.png Graphic file (type png)
+<use figures/fig_06_trajectory_examples.png>
+Package pdftex.def Info: figures/fig_06_trajectory_examples.png  used on input 
+line 9.
+(pdftex.def)             Requested size: 294.42636pt x 166.44824pt.
+ [53 <./figures/fig_06_trajectory_examples.png>]
+<figures/fig_07_case_study_scorecards.png, id=884, 1076.5821pt x 498.1812pt>
+File: figures/fig_07_case_study_scorecards.png Graphic file (type png)
+<use figures/fig_07_case_study_scorecards.png>
+Package pdftex.def Info: figures/fig_07_case_study_scorecards.png  used on inpu
+t line 20.
+(pdftex.def)             Requested size: 294.42636pt x 136.24388pt.
+) [54 <./figures/fig_07_case_study_scorecards.png>] (./manuscript.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+Package rerunfilecheck Info: File `manuscript.out' has not changed.
+(rerunfilecheck)             Checksum: 68E39B11C7E9D25B91423857A019C3F9;17513.
+ ) 
+Here is how much of TeX's memory you used:
+ 13016 strings out of 469005
+ 207002 string characters out of 5455224
+ 639759 words of memory out of 5000000
+ 41259 multiletter control sequences out of 15000+600000
+ 644271 words of font info for 101 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 75i,16n,79p,1377b,594s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/jenholm/.texlive2026/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.6
+00pk></home/jenholm/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+10.pfb></home/jenholm/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+bx12.pfb></home/jenholm/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx8.pfb></home/jenholm/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmex10.pfb></home/jenholm/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb></home/jenholm/texlive/2026/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb></home/jenholm/texlive/2026/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi8.pfb></home/jenholm/texlive/2026/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmib10.pfb></home/jenholm/texlive/2026/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></home/jenholm/texlive/2026/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></home/jenholm/texlive/2026/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr17.pfb></home/jenholm/texlive/2026/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb></home/jenholm/texlive/2026/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb></home/jenholm/texlive/2026/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></home/jenholm/texlive/2026/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy7.pfb></home/jenholm/texlive/2026/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb></home/jenholm/texlive/2026/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmti10.pfb></home/jenholm/texlive/2026/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti12.pfb></home/jenholm/texlive/2026/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmti8.pfb></home/jenholm/texlive/2026/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmtt12.pfb></home/jenholm/texlive/2026/texmf-dist/fonts/
+type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on manuscript.pdf (54 pages, 2070174 bytes).
+PDF statistics:
+ 1040 PDF objects out of 1200 (max. 8388607)
+ 866 compressed objects within 9 object streams
+ 245 named destinations out of 1000 (max. 500000)
+ 742 words of extra memory for PDF output out of 10000 (max. 10000000)
+

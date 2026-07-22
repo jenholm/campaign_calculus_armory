@@ -1,0 +1,166 @@
+{
+  "aggregate": {
+    "n_presets": 7,
+    "mean_flip_rate": 0.0,
+    "max_flip_rate": 0.0,
+    "fragile_presets": [],
+    "robust_presets": [
+      "gulf_war_1991",
+      "vietnam_war",
+      "wwi",
+      "franco_prussian",
+      "korean_war",
+      "iran_iraq",
+      "wwii"
+    ]
+  },
+  "per_preset": {
+    "gulf_war_1991": {
+      "baseline": {
+        "outcome": "decisive_victory_a",
+        "mechanism": "strategic exhaustion",
+        "secondary_mechanism": "decisive shock",
+        "confidence": 0.6057051595346821,
+        "termination_event": "political/military collapse of side B",
+        "duration_months": 31,
+        "decisive_shock_score": 20.6,
+        "strategic_exhaustion_score": 25.5,
+        "political_exhaustion_score": 18.8
+      },
+      "flip_rates": {
+        "shock_strength": 0.0,
+        "attrition_rate": 0.0,
+        "economic_resilience": 0.0,
+        "political_resilience": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "vietnam_war": {
+      "baseline": {
+        "outcome": "decisive_victory_a",
+        "mechanism": "strategic exhaustion",
+        "secondary_mechanism": "decisive shock",
+        "confidence": 0.5704851597313894,
+        "termination_event": "political/military collapse of side B",
+        "duration_months": 17,
+        "decisive_shock_score": 20.7,
+        "strategic_exhaustion_score": 27.7,
+        "political_exhaustion_score": 9.1
+      },
+      "flip_rates": {
+        "shock_strength": 0.0,
+        "attrition_rate": 0.0,
+        "economic_resilience": 0.0,
+        "political_resilience": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "wwi": {
+      "baseline": {
+        "outcome": "negotiated_settlement",
+        "mechanism": "strategic exhaustion",
+        "secondary_mechanism": "decisive shock",
+        "confidence": 0.6004557784428932,
+        "termination_event": "negotiated settlement",
+        "duration_months": 19,
+        "decisive_shock_score": 20.9,
+        "strategic_exhaustion_score": 30.9,
+        "political_exhaustion_score": 15.7
+      },
+      "flip_rates": {
+        "shock_strength": 0.0,
+        "attrition_rate": 0.0,
+        "economic_resilience": 0.0,
+        "political_resilience": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "franco_prussian": {
+      "baseline": {
+        "outcome": "decisive_victory_a",
+        "mechanism": "strategic exhaustion",
+        "secondary_mechanism": "decisive shock",
+        "confidence": 0.6118290538503999,
+        "termination_event": "political/military collapse of side B",
+        "duration_months": 30,
+        "decisive_shock_score": 20.7,
+        "strategic_exhaustion_score": 27.6,
+        "political_exhaustion_score": 21.5
+      },
+      "flip_rates": {
+        "shock_strength": 0.0,
+        "attrition_rate": 0.0,
+        "economic_resilience": 0.0,
+        "political_resilience": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "korean_war": {
+      "baseline": {
+        "outcome": "negotiated_settlement",
+        "mechanism": "strategic exhaustion",
+        "secondary_mechanism": "decisive shock",
+        "confidence": 0.6303918441421046,
+        "termination_event": "negotiated settlement",
+        "duration_months": 29,
+        "decisive_shock_score": 20.9,
+        "strategic_exhaustion_score": 32.0,
+        "political_exhaustion_score": 15.1
+      },
+      "flip_rates": {
+        "shock_strength": 0.0,
+        "attrition_rate": 0.0,
+        "economic_resilience": 0.0,
+        "political_resilience": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "iran_iraq": {
+      "baseline": {
+        "outcome": "negotiated_settlement",
+        "mechanism": "decisive shock",
+        "secondary_mechanism": "strategic exhaustion",
+        "confidence": 0.517405705214653,
+        "termination_event": "negotiated settlement",
+        "duration_months": 9,
+        "decisive_shock_score": 21.0,
+        "strategic_exhaustion_score": 24.8,
+        "political_exhaustion_score": 5.6
+      },
+      "flip_rates": {
+        "shock_strength": 0.0,
+        "attrition_rate": 0.0,
+        "economic_resilience": 0.0,
+        "political_resilience": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "wwii": {
+      "baseline": {
+        "outcome": "negotiated_settlement",
+        "mechanism": "strategic exhaustion",
+        "secondary_mechanism": "decisive shock",
+        "confidence": 0.61945032542349,
+        "termination_event": "negotiated settlement",
+        "duration_months": 20,
+        "decisive_shock_score": 21.1,
+        "strategic_exhaustion_score": 32.4,
+        "political_exhaustion_score": 16.7
+      },
+      "flip_rates": {
+        "shock_strength": 0.0,
+        "attrition_rate": 0.0,
+        "economic_resilience": 0.0,
+        "political_resilience": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    }
+  }
+}

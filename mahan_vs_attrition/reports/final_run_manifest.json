@@ -1,0 +1,41 @@
+{
+  "git_commit": "f6f27b222cb49e9207790f80a49eec184ce24b42",
+  "python_version": "3.11.15 (main, Mar 24 2026, 22:50:29) [Clang 22.1.1 ]",
+  "random_seed": 42,
+  "elapsed_seconds": 1.5,
+  "steps": {
+    "sensitivity": {
+      "status": "ok",
+      "elapsed_seconds": 1.3
+    },
+    "blind_validation": {
+      "status": "ok",
+      "elapsed_seconds": 0.2
+    },
+    "simulation_presets": {
+      "status": "ok",
+      "presets": 7,
+      "elapsed_seconds": 0.0
+    },
+    "leakage_experiment": {
+      "status": "ok",
+      "elapsed_seconds": 0.0
+    }
+  },
+  "output_hashes": {
+    "dss_scores.parquet": "bd9a29afc2649fde",
+    "ses_scores.parquet": "80f65350a71f75bc",
+    "termination_classification.parquet": "e229f8cf602c6e7c",
+    "sensitivity_summary.json": "f63d2f2eca7765f0",
+    "internal_coefficient_sensitivity.json": "4ab695443275b945",
+    "blind_validation_summary.json": "55a8692a35f7f611",
+    "simulation_preset_results.json": "569ac5656df1d198",
+    "leakage_experiment.json": "141d953963e00d46"
+  },
+  "param_hashes": {
+    "config/metric_weights.yml": "b6ee05c28b664d61",
+    "config/sources.yml": "8fe607c8de78dd90",
+    "config/war_taxonomy.yml": "9e915396f877e9b9",
+    "data/blind_validation_cases.yml": "23b73443040cea2d"
+  }
+}

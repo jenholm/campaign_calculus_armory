@@ -1,0 +1,29 @@
+{
+  "n_cases": 24,
+  "n_exact_matches": 0,
+  "exact_match_rate": 0.0,
+  "n_indeterminate": 21,
+  "coverage_rate": 0.125,
+  "n_directional_errors": 3,
+  "assessment_distribution": {
+    "indeterminate": 21,
+    "false_decisive": 3
+  },
+  "by_human_label": {
+    "attritional": {
+      "n": 8,
+      "exact_matches": 0,
+      "indeterminate": 5
+    },
+    "decisive": {
+      "n": 9,
+      "exact_matches": 0,
+      "indeterminate": 9
+    },
+    "mixed": {
+      "n": 7,
+      "exact_matches": 0,
+      "indeterminate": 7
+    }
+  }
+}

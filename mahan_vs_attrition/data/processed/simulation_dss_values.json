@@ -1,0 +1,44 @@
+{
+  "gulf_war_1991": {
+    "sim_dss": 29.7,
+    "sim_ses": 37.4,
+    "outcome": "decisive_victory_a",
+    "termination_month": 31
+  },
+  "vietnam_war": {
+    "sim_dss": 20.0,
+    "sim_ses": 28.5,
+    "outcome": "decisive_victory_a",
+    "termination_month": 17
+  },
+  "wwi": {
+    "sim_dss": 21.4,
+    "sim_ses": 32.7,
+    "outcome": "negotiated_settlement",
+    "termination_month": 19
+  },
+  "franco_prussian": {
+    "sim_dss": 29.6,
+    "sim_ses": 38.0,
+    "outcome": "decisive_victory_a",
+    "termination_month": 30
+  },
+  "korean_war": {
+    "sim_dss": 26.9,
+    "sim_ses": 39.9,
+    "outcome": "negotiated_settlement",
+    "termination_month": 29
+  },
+  "iran_iraq": {
+    "sim_dss": 12.4,
+    "sim_ses": 17.5,
+    "outcome": "negotiated_settlement",
+    "termination_month": 9
+  },
+  "wwii": {
+    "sim_dss": 24.9,
+    "sim_ses": 35.4,
+    "outcome": "negotiated_settlement",
+    "termination_month": 20
+  }
+}

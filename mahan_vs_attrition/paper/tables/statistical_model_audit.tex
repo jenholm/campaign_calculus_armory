@@ -1,0 +1,39 @@
+\begin{table}[H]
+\centering
+\caption{Statistical model audit: VIF, out-of-bag error, interaction logistic regression, and bootstrap AUC confidence intervals.}
+\label{tab:statistical_audit}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\textwidth}{@{}l X r@{}}
+\toprule
+\textbf{Metric} & \textbf{Details} & \textbf{Value} \\
+\midrule
+\multicolumn{3}{l}{\textit{Variance Inflation Factors}} \\
+energy consumption initial & High & 36.05 \\
+cinc pct change & High & 21.79 \\
+iron steel initial & High & 18.48 \\
+military personnel pct change & High & 16.40 \\
+military expenditure initial & Warning & 8.14 \\
+military expenditure pct change & OK & 4.56 \\
+energy consumption pct change & OK & 4.28 \\
+iron steel pct change & OK & 4.11 \\
+cinc initial & OK & 3.08 \\
+battle deaths initial & OK & 2.49 \\
+military personnel initial & OK & 2.18 \\
+battle deaths pct change & OK & 1.05 \\
+\midrule
+\multicolumn{2}{l}{\textbf{Max VIF}} & 36.05 \\
+\midrule
+\multicolumn{3}{l}{\textit{Model Performance}} \\
+Logistic regression test accuracy & 5-fold CV, $C=1.0$ & 0.5483 \\
+Logistic regression AUC-ROC & Bootstrap 95\% CI & 0.5610 \\
+  LR AUC 95\% CI & $[0.5165,\; 0.6048]$ & \\
+Interaction logistic test accuracy & Degree-2 interactions, L2 & 0.5935 \\
+Interaction logistic AUC-ROC & & 0.6293 \\
+Random forest test accuracy & 100 trees, depth 5 & 0.7321 \\
+Random forest AUC-ROC & Bootstrap 95\% CI & 0.7946 \\
+  RF AUC 95\% CI & $[0.7598,\; 0.8282]$ & \\
+Random forest OOB accuracy & Out-of-bag estimate & 0.7358 \\
+\bottomrule
+\end{tabularx}
+\end{table}

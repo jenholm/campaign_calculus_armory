@@ -1,0 +1,10 @@
+check,n,status,example_orphans
+duplicate_war_id_in_wars,0,PASS,
+duplicate_battle_id_in_battles,0,PASS,
+wp.war_id_orphans,0,PASS,[]
+dss.war_id_orphans,0,PASS,
+ses.war_id_orphans,0,PASS,
+war_years_rows_per_war_min,23,INFO,
+war_years_rows_per_war_median,114,INFO,
+war_years_rows_per_war_max,5249,INFO,
+war_years_unique_wars,2571,INFO,

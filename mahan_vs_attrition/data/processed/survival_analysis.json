@@ -1,0 +1,18 @@
+{
+  "uncertain_or_negotiated": {
+    "n_wars": 2570,
+    "median_duration_days": 244,
+    "mean_duration_days": 724.8,
+    "pct_ended_within_30d": 26,
+    "pct_ended_within_365d": 59,
+    "pct_ended_within_1825d": 88
+  },
+  "uncertain": {
+    "n_wars": 2179,
+    "median_duration_days": 122,
+    "mean_duration_days": 757.7,
+    "pct_ended_within_30d": 46,
+    "pct_ended_within_365d": 62,
+    "pct_ended_within_1825d": 87
+  }
+}

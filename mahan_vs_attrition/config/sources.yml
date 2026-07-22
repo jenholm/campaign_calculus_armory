@@ -1,0 +1,117 @@
+cow_war:
+  name: "Correlates of War War Data"
+  type: "download"
+  period: "1816-2007"
+  priority: 1
+  license_notes: "Check source terms"
+  local_path: "data/raw/cow_war/"
+  required_fields:
+    - war_id
+    - war_name
+    - start_date
+    - end_date
+    - participants
+    - outcome
+
+cow_nmc:
+  name: "COW National Material Capabilities"
+  type: "download"
+  period: "1816-2022"
+  priority: 1
+  license_notes: "Check source terms"
+  local_path: "data/raw/cow_nmc/"
+  required_fields:
+    - state
+    - year
+    - population
+    - urban_population
+    - iron_steel
+    - energy
+    - military_personnel
+    - military_expenditure
+    - cinc
+
+cow_mid:
+  name: "COW Militarized Interstate Disputes"
+  type: "download"
+  period: "1816-2014"
+  priority: 1
+  license_notes: "Check source terms"
+  local_path: "data/raw/cow_mid/"
+  required_fields:
+    - dispute_id
+    - start_date
+    - end_date
+    - participants
+    - hostility_level
+    - fatalities
+
+cow_alliance:
+  name: "COW Alliance Data"
+  type: "download"
+  period: "1816-2012"
+  priority: 1
+  license_notes: "Check source terms"
+  local_path: "data/raw/cow_alliance/"
+  required_fields:
+    - alliance_id
+    - member_states
+    - alliance_type
+    - start_date
+    - end_date
+
+ucdp_battle_deaths:
+  name: "UCDP Battle-Related Deaths"
+  type: "download"
+  period: "1989-2023"
+  priority: 1
+  license_notes: "Check source terms"
+  local_path: "data/raw/ucdp/"
+  required_fields:
+    - conflict_id
+    - year
+    - side_a
+    - side_b
+    - deaths_best
+    - deaths_low
+    - deaths_high
+
+acled:
+  name: "ACLED"
+  type: "api"
+  period: "1997-present, varies by region"
+  priority: 2
+  local_path: "data/raw/acled/"
+  requires_api_key: true
+
+sipri_milex:
+  name: "SIPRI Military Expenditure"
+  type: "download"
+  period: "1949-2025"
+  priority: 1
+  license_notes: "Check source terms"
+  local_path: "data/raw/sipri/"
+
+vdem:
+  name: "V-Dem"
+  type: "download"
+  period: "1789-2025, varies by indicator"
+  priority: 1
+  license_notes: "Check source terms"
+  local_path: "data/raw/vdem/"
+
+brecke:
+  name: "Brecke Conflict Catalog"
+  type: "download_or_manual"
+  period: "1400-2000"
+  priority: 2
+  license_notes: "Check source terms"
+  local_path: "data/raw/brecke/"
+
+iwb:
+  name: "Interstate War Battle Dataset"
+  type: "download_or_manual"
+  period: "1823-2003"
+  priority: 1
+  license_notes: "Check source terms"
+  local_path: "data/raw/iwb/"

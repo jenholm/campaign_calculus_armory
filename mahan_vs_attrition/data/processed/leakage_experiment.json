@@ -1,0 +1,93 @@
+{
+  "gulf_war_1991": {
+    "predictive_dss": 50.7,
+    "components": {
+      "force_ratio": 50.0,
+      "economic_disparity": 50.0,
+      "industrial_capacity_ratio": 50.0,
+      "logistics_vulnerability": 50.0,
+      "surprise_indicator": 50.0,
+      "alliance_asymmetry": 50.0,
+      "mobilization_speed": 50.0,
+      "regime_stability": 64.0
+    }
+  },
+  "vietnam_war": {
+    "predictive_dss": 50.7,
+    "components": {
+      "force_ratio": 50.0,
+      "economic_disparity": 50.0,
+      "industrial_capacity_ratio": 50.0,
+      "logistics_vulnerability": 50.0,
+      "surprise_indicator": 50.0,
+      "alliance_asymmetry": 50.0,
+      "mobilization_speed": 50.0,
+      "regime_stability": 64.0
+    }
+  },
+  "wwi": {
+    "predictive_dss": 50.7,
+    "components": {
+      "force_ratio": 50.0,
+      "economic_disparity": 50.0,
+      "industrial_capacity_ratio": 50.0,
+      "logistics_vulnerability": 50.0,
+      "surprise_indicator": 50.0,
+      "alliance_asymmetry": 50.0,
+      "mobilization_speed": 50.0,
+      "regime_stability": 64.0
+    }
+  },
+  "franco_prussian": {
+    "predictive_dss": 50.7,
+    "components": {
+      "force_ratio": 50.0,
+      "economic_disparity": 50.0,
+      "industrial_capacity_ratio": 50.0,
+      "logistics_vulnerability": 50.0,
+      "surprise_indicator": 50.0,
+      "alliance_asymmetry": 50.0,
+      "mobilization_speed": 50.0,
+      "regime_stability": 64.0
+    }
+  },
+  "korean_war": {
+    "predictive_dss": 50.7,
+    "components": {
+      "force_ratio": 50.0,
+      "economic_disparity": 50.0,
+      "industrial_capacity_ratio": 50.0,
+      "logistics_vulnerability": 50.0,
+      "surprise_indicator": 50.0,
+      "alliance_asymmetry": 50.0,
+      "mobilization_speed": 50.0,
+      "regime_stability": 64.0
+    }
+  },
+  "iran_iraq": {
+    "predictive_dss": 50.7,
+    "components": {
+      "force_ratio": 50.0,
+      "economic_disparity": 50.0,
+      "industrial_capacity_ratio": 50.0,
+      "logistics_vulnerability": 50.0,
+      "surprise_indicator": 50.0,
+      "alliance_asymmetry": 50.0,
+      "mobilization_speed": 50.0,
+      "regime_stability": 64.0
+    }
+  },
+  "wwii": {
+    "predictive_dss": 50.7,
+    "components": {
+      "force_ratio": 50.0,
+      "economic_disparity": 50.0,
+      "industrial_capacity_ratio": 50.0,
+      "logistics_vulnerability": 50.0,
+      "surprise_indicator": 50.0,
+      "alliance_asymmetry": 50.0,
+      "mobilization_speed": 50.0,
+      "regime_stability": 64.0
+    }
+  }
+}

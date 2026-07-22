@@ -1,0 +1,91 @@
+\subsection{The Attritional Iceberg}
+
+Our analysis reveals a pattern we term the ``attritional iceberg'': among the 91 wars with complete battle-level data, the vast majority (75.8\%) are classified as uncertain or negotiated rather than clearly decisive, and only 2.2\% are classified as decisively determined by single battles or campaigns. Even among these 91 wars, which represent the subset of conflicts with the richest battle-level data, clear-cut decisive outcomes are rare (2.2\%). Among the 91 wars with sufficient battle-level data for DSS computation; this subset reflects IWB coverage rather than a representative sample of all wars. The revised mechanism classifier further supports this pattern: it agrees with historical interpretation in 6 of 7 evaluated cases, demonstrating that terminal events and strategic mechanisms can diverge. Several historically recognized exhaustion conflicts terminate through political or military collapse events, but the underlying trajectory remains exhaustion-dominated.
+
+The Battle of Sedan, for example, is celebrated as a paradigmatic decisive victory, but our metrics reveal that France had already suffered significant manpower depletion, economic strain, and territorial losses before the battle. Sedan transformed accumulated military disadvantage into immediate political collapse: the decisive shock was real and operationally significant, but it operated atop an attritional substrate that had already shifted the strategic balance. This pattern, attritional degradation followed by a decisive shock that exploits the degraded state, emerges naturally from the simulation model. When the attrition rate is high, the military and economic state variables decline gradually until they cross thresholds where even a moderate shock produces collapse. The shock is the proximate correlate of termination, but the attrition is the associated distal pattern.
+
+The attritional iceberg finding has implications for how we understand and study war. The tendency to focus on decisive battles reflects a cognitive bias toward salient, dramatic events rather than gradual processes. The historian's craft, organized around turning points, crises, and climactic moments, amplifies this bias by emphasizing what happened at particular moments rather than what accumulated over time. Our computational approach, by systematically quantifying both shock and exhaustion dynamics across thousands of wars, suggests the degree to which the attritional substrate has been underappreciated.
+
+\subsection{When Decisive Battles Matter}
+
+\begin{table}[H]
+\centering
+\caption{Mechanism interpretation: separating how wars ended from why they became unwinnable.}
+\label{tab:mechanism_interpretation}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.05}
+\begin{tabularx}{\textwidth}{l X X}
+\toprule
+\textbf{War} & \textbf{How it ended} & \textbf{Why it became unwinnable} \\
+\midrule
+World War I & Negotiated settlement & Strategic exhaustion: industrial attrition system, economic blockade, political collapse. Hundred Days exploited exhausted German capacity. \\
+World War II & Axis unconditional surrender & Strategic exhaustion with decisive accelerators: industrial mismatch, manpower depletion, multi-front pressure. Decisive events (Barbarossa failure, Midway, Normandy, atomic bombs) accelerated an exhaustion trajectory but did not constitute the primary mechanism of defeat. \\
+Vietnam War & Political collapse & Strategic exhaustion with decisive political shocks: two decades of cumulative attrition eroded political will. Tet Offensive accelerated but did not cause the underlying exhaustion trajectory. \\
+Gulf War (1991) & Military collapse & Decisive shock: coalition air superiority and 100-hour ground campaign. \\
+Franco-Prussian War (1870) & Military collapse & Decisive shock atop exhaustion substrate: Sedan transformed accumulated military disadvantage into immediate political collapse. \\
+Korean War (1950--53) & Negotiated settlement & Mixed / unresolved: rapid territorial shifts, Chinese intervention, stalemate. \\
+Iran--Iraq (1980--88) & Negotiated settlement & Strategic exhaustion: eight years of attritional warfare without decisive breakthrough. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Our analysis does not argue that decisive battles are irrelevant, only that their role is more limited than the Mahan hypothesis suggests. Table~\ref{tab:mechanism_interpretation} presents the paper's core contribution: a quantitative framework for distinguishing terminal events from underlying strategic mechanisms. Among the 91 wars with complete battle-level data, 2 (2.2\%) are classified as decisively determined by single battles or campaigns, while 20 (22.0\%) are classified as strategic exhaustion and the remaining 75.8\% as uncertain. The revised classifier indicates that the Franco-Prussian War and Gulf War are characterized by decisive shock dynamics, while Vietnam, WWI, WWII, and Iran--Iraq are exhaustion-dominated, with the Korean War genuinely ambiguous.
+
+Decisive battles appear to matter most when: (1) the belligerents are roughly matched in material resources, making exhaustion an uncertain path to victory; (2) the strategic geography favors concentrated engagement (e.g., island campaigns, narrow corridors); (3) military technology creates sudden asymmetries that can be exploited in a single engagement; and (4) political constraints limit the ability of the losing side to absorb losses and continue fighting. When these conditions are absent, as in the prolonged trench warfare of World War I or the diffuse insurgency of Vietnam, the attrition hypothesis dominates.
+
+\subsection{Termination Events Are Not Equivalent to Strategic Causes}
+
+A war may end because a capital falls, a government collapses, an army retreats, or a treaty is signed. But the \emph{cause} of the war's unwinnability may be exhaustion, attrition, political decay, or decisive defeat. These are different questions, and conflating them produces a category error.
+
+The distinction matters because termination events can be misleading. Consider Vietnam: the simulation's termination condition produces a political collapse of side B, which might suggest a ``decisive'' outcome. But the \emph{mechanism} that made South Vietnam unwinnable was strategic exhaustion: two decades of cumulative attrition that eroded military capacity, economic resilience, and political will \citep{herring2002}. The fall of Saigon was the terminal event; exhaustion was the underlying cause.
+
+The distinction is visible across the case studies. Table~\ref{tab:simulation} shows that the mechanism-trajectory classifier, which computes independent scores for decisive shock and strategic exhaustion based on simulation trajectories, agrees with author-assigned labels in 6 of 7 cases (calibration consistency). The improvement comes entirely from correctly separating termination events from strategic causes in the Vietnam and WWI cases.
+
+The distinction has practical implications. A military planner who interprets the fall of Saigon as a ``decisive'' event might conclude that decisive offensive capability is the key to victory. A planner who recognizes that Saigon fell because of two decades of exhaustion would instead invest in sustaining political will, economic resilience, and logistical depth. The mechanism, not the termination event, determines the appropriate strategic response.
+
+This separation is the paper's core methodological contribution: a quantitative framework for distinguishing terminal events from underlying strategic mechanisms. The historical science of war has long been vulnerable to the narrative pull of dramatic endpoints. Our classifier provides a systematic alternative.
+
+\subsection{Implications for Military Strategy}
+
+The attritional iceberg finding carries practical implications for military strategy and resource allocation. If wars are predominantly attritional, then investment in logistical capacity, industrial base, and political resilience may yield greater returns than investment in elite offensive capabilities. Tactical excellence is not unimportant; it must be embedded within a strategic framework that accounts for the cumulative dynamics of prolonged conflict.
+
+The simulation model suggests that the balance between shock and attrition is sensitive to a small number of key parameters: shock frequency, attrition rate, economic resilience, and political resilience. Changes in any of these parameters can shift a war from one regime to another. This aligns with Luttwak's observation \citep{luttwak1976} that the same strategy can produce decisive or attritional outcomes depending on the adversary's response: the dialectical logic of strategy itself shapes whether shocks are decisive or merely informative.
+
+\subsection{Comparison with Existing Literature}
+
+Our findings extend and qualify several strands of the existing literature. The quantitative war studies tradition, exemplified by Bennett and Stam \citep{bennett2000} and Huth \citep{huth1996}, has identified material and political factors as predictors of war outcomes. Our logistic regression analysis shows that linear relationships among material-capability features (CINC scores, military expenditure, energy consumption) contain limited predictive information about war dynamics (55.0\% accuracy, only 2.7pp above null), while the random forest captures nonlinear interactions that improve prediction to 72.7\%. The case study literature on specific wars often arrives at conclusions consistent with our classification patterns: the simulation mechanism demonstration shows that the model, when calibrated to historical initial conditions, classifies the Franco-Prussian War and Gulf War as decisive, while the Vietnam War is identified as strategic exhaustion with decisive accelerators.
+
+\subsection{The Interesting Question}
+
+We conclude that the interesting scientific question is not ``Mahan or attrition?'', both mechanisms appear to operate, but ``when does a decisive shock actually matter versus when does it merely reveal an already-lost strategic position?'' Our simulation model provides a partial answer: shocks matter when they occur in a parameter regime where exhaustion has not yet progressed beyond the point of recovery. When exhaustion is advanced, even a large shock merely accelerates an inevitable outcome. When exhaustion is nascent, a shock can genuinely redirect the war's trajectory. The tipping point between these regimes is what our framework identifies and what future research should seek to characterize more precisely.
+
+More fundamentally, our mechanism classifier reveals that the historical science of war has been vulnerable to a category error: confusing termination events with strategic causes. A war may end because a capital falls, but the reason it became unwinnable may be exhaustion. Separating these dimensions, as our mechanism-trajectory classifier does, produces a more Clausewitz-compatible framework that distinguishes proximate triggers from underlying dynamics. This separation is itself a contribution: it provides a quantitative vocabulary for discussing when and how shocks versus attrition dominate, without conflating the end of a war with the reason it was lost.
+
+\subsection{Model Boundaries and Known Limitations}
+
+The current framework has the following scope limits.
+
+\subsubsection{Outcome Information Delta}
+
+The observed DSS (Equation~\ref{eq:dss}) incorporates post-hoc information, outcome proximity, morale cascade, territorial swing, to measure \emph{realized decisive contribution}. The predictive DSS (Equation~\ref{eq:pred_dss}), which uses only exogenous features, measures what strategic observers could reasonably assess before the outcome was known. The gap between them, the outcome information delta, quantifies how much additional information becomes available after conflict resolution.
+
+This delta varies substantially across cases (Table~\ref{tab:outcome_delta}). The Gulf War shows a moderate positive delta (+15.6): pre-war structural factors captured most of the decisive dynamics, and the outcome was consistent with what analysts could have predicted. The Six Day War shows the largest positive delta (+40.0): while Israeli qualitative superiority was known pre-war, the speed and completeness of the Arab air force destruction and the 6-day resolution exceeded what structural conditions alone would predict \citep{oren2002}. The Franco-Prussian War shows a large positive delta (+32.0): the outcome was more decisive than structural conditions alone would suggest. Conversely, Vietnam shows a large negative delta ($-$39.9): structural factors strongly suggested a decisive outcome, but the actual war proved attritional.
+
+The negative deltas are the more analytically interesting finding. They suggest that the predictive model captures material superiority but not the political and strategic factors that transform potentially decisive advantages into prolonged attrition. A military analyst in January 1991 would have assigned a high probability of coalition victory based on structural factors alone. A military analyst in August 1914 would not have made the same assessment for WWI. That asymmetry reflects the genuine difference between structural predictability and outcome-dependent information, and is captured precisely by the outcome information delta.
+
+\subsubsection{Complexity and Omitted Variables}
+
+Real wars contain political, economic, technological, cultural, and individual-level variables that our five-state-variable model cannot capture. Leadership quality, intelligence operations, geographic terrain, weather, technological innovation, alliance politics, domestic media, and command-and-control degradation all influence war dynamics. Any one of these could dominate in specific conflicts (e.g., intelligence at Midway, geography at Stalingrad, leadership in France 1940). The model's value lies in identifying qualitative patterns across many wars, not in reproducing the precise trajectory of any individual conflict.
+
+\subsubsection{Parameter Uncertainty}
+
+The simulation includes 23 internal coefficients that are not historically calibrated. Our sensitivity analysis shows that 22 of 23 produce zero classification flips across all presets when varied $\pm 50\%$. The sole exception is the battle loss rate (0.04), which affects the Vietnam War preset at extreme variations. We interpret results at the \emph{regime} level: exact values are uncertain, but the qualitative distinction between decisive-shock-dominant and attritional-exhaustion-dominant regimes persists across plausible parameter ranges.
+
+\subsubsection{Dataset Bias}
+
+Available quantitative data favors well-documented conflicts, primarily modern interstate wars involving European or North American belligerents. The Brecke Conflict Catalog covers European conflicts 1400--1789; UCDP covers 1946--present; IWB covers 1600--2003 for interstate wars only. Merging these requires normalization through a pipeline that imputes missing data and aligns heterogeneous coding schemes. Our DSS results are most reliable for modern interstate wars and may not generalize to ancient, medieval, or non-Western conflicts.
+
+\subsubsection{Prediction Limits}
+
+The model forecasts mechanism classes (decisive, attritional, mixed), not battlefield events. It predicts the qualitative trajectory shape and termination pathway, not the exact winner, date of surrender, or specific battle outcomes. This narrow prediction target reflects a deliberate choice: Clausewitzian strategic outcomes emerge from many interacting systems that cannot be captured by parsimonious models. The model's contribution is providing a quantitative vocabulary for discussing when and how shocks versus attrition dominate, not predicting the outcomes of future wars.

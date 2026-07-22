@@ -1,0 +1,119 @@
+decisive_shock_score:
+  components:
+    final_battle_proximity:
+      weight: 0.15
+      description: "Time between final major battle and war termination"
+    battle_casualty_concentration:
+      weight: 0.10
+      description: "Ratio of largest battle casualties to total war casualties"
+    source_claims_decisive:
+      weight: 0.35
+      description: "Historical consensus on decisiveness (manual or Wikipedia)"
+    capital_capture:
+      weight: 0.10
+      description: "Whether the capital city was captured"
+    field_army_destroyed:
+      weight: 0.10
+      description: "Whether the main field army was destroyed as a fighting force"
+    fleet_destroyed:
+      weight: 0.05
+      description: "Whether the main fleet was destroyed"
+    rapid_surrender:
+      weight: 0.05
+      description: "Whether surrender followed promptly (within 30 days) after final battle"
+    regime_collapse:
+      weight: 0.05
+      description: "Whether the regime collapsed during the war"
+    battle_winner_equals_war_winner:
+      weight: 0.05
+      description: "Whether the battle victor was the war victor"
+
+strategic_exhaustion_score:
+  components:
+    duration_pressure:
+      weight: 0.14
+      description: "Log-transformed duration of war"
+    casualty_burden:
+      weight: 0.14
+      description: "Casualties relative to pre-war population and military"
+    military_personnel_decline:
+      weight: 0.14
+      description: "Decline in military personnel over war years"
+    military_expenditure_burden:
+      weight: 0.14
+      description: "Military expenditure as share of GDP vs pre-war baseline"
+    energy_or_industrial_decline:
+      weight: 0.10
+      description: "Decline in energy consumption or industrial proxies"
+    event_tempo_decline:
+      weight: 0.10
+      description: "Decline in military event frequency over time"
+    alliance_degradation:
+      weight: 0.10
+      description: "Loss or defection of allies during conflict"
+    regime_will_decline:
+      weight: 0.05
+      description: "Regime instability, leadership turnover, elite defection"
+    territorial_loss_proxy:
+      weight: 0.05
+      description: "Proportion of territory lost during conflict"
+    protest_or_unrest_increase:
+      weight: 0.04
+      description: "Increase in domestic protest and unrest"
+
+logistics_strain_score:
+  components:
+    distance_from_home_base:
+      weight: 0.20
+      description: "Operational distance from home territory"
+    port_or_rail_dependency:
+      weight: 0.15
+      description: "Dependence on vulnerable sea/rail lines"
+    blockade_present:
+      weight: 0.15
+      description: "Whether naval or economic blockade was in effect"
+    fuel_constraint:
+      weight: 0.10
+      description: "Fuel or energy shortages affecting operations"
+    ammunition_constraint:
+      weight: 0.10
+      description: "Ammunition or munitions shortages"
+    import_dependency:
+      weight: 0.10
+      description: "Dependence on foreign materiel imports"
+    lend_lease_or_external_supply_dependency:
+      weight: 0.10
+      description: "Dependence on allied supply programs"
+    winter_or_seasonal_constraint:
+      weight: 0.05
+      description: "Seasonal weather constraints on operations"
+    supply_line_interdiction:
+      weight: 0.05
+      description: "Enemy interdiction of supply lines"
+
+classification_thresholds:
+  decisive_battle_or_campaign:
+    dss_min: 70
+    ses_max: 50
+    description: "DSS >= 70 and SES < 50"
+
+  strategic_exhaustion:
+    ses_min: 70
+    dss_max: 50
+    description: "SES >= 70 and DSS < 50"
+
+  mixed:
+    dss_min: 60
+    ses_min: 60
+    description: "DSS >= 60 and SES >= 60"
+
+  uncertain_or_negotiated:
+    description: "All other cases"
+
+# Hybrid rule: dominant-axis + closeness band.
+# Calibrated against the 10-case golden set.
+classification_thresholds_hybrid:
+  min_one_axis: 45         # both DSS and SES below this -> uncertain
+  mixed_both_above: 65     # both above this -> mixed
+  decisive_margin: 20      # DSS - SES >= 20 -> decisive_battle_or_campaign
+  exhaustion_margin: 20    # SES - DSS >= 20 -> strategic_exhaustion

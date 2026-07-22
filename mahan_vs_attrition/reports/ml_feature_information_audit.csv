@@ -1,0 +1,41 @@
+Feature,Dataset,Available before war,Allowed in predictive model,Rationale
+military_personnel,COW NMC,Yes,Allowed,Military personnel count
+military_expenditure,COW NMC,Yes,Allowed,Military expenditure
+energy_consumption,COW NMC,Yes,Allowed,Energy consumption
+iron_steel,COW NMC,Yes,Allowed,Iron/steel production
+cinc,COW NMC,Yes,Allowed,Composite Index of National Capability
+population,COW NMC,Yes,Allowed,Total population
+gdp,COW NMC,Yes,Allowed,Gross Domestic Product
+military_personnel_pct_change,Derived from COW NMC,Yes,Allowed (ex-ante),Change in military personnel
+military_expenditure_pct_change,Derived from COW NMC,Yes,Allowed (ex-ante),Change in military expenditure
+energy_consumption_pct_change,Derived from COW NMC,Yes,Allowed (ex-ante),Change in energy consumption
+iron_steel_pct_change,Derived from COW NMC,Yes,Allowed (ex-ante),Change in iron/steel
+cinc_pct_change,Derived from COW NMC,Yes,Allowed (ex-ante),Change in CINC
+battle_deaths,COW UCDP,No,Forbidden (outcome-dependent),Cumulative battle deaths
+duration_days,COW War,No,Forbidden (is the target variable),War duration in days
+winner_loser_stalemate,COW War,No,Forbidden (is the outcome),War outcome
+final_battle_proximity,DSS component,No,Forbidden (post-hoc),Days from last battle to war end
+battle_casualty_concentration,DSS component,No,Forbidden (outcome-dependent),Max battle casualties / total
+source_claims_decisive,DSS component,No,Forbidden (hindsight bias),Historical consensus
+capital_capture,DSS component,No,Forbidden (outcome-dependent),Capital captured
+field_army_destroyed,DSS component,No,Forbidden (outcome-dependent),Main army destroyed
+fleet_destroyed,DSS component,No,Forbidden (outcome-dependent),Main fleet destroyed
+rapid_surrender,DSS component,No,Forbidden (temporal leakage),Surrender within 30 days
+regime_collapse,DSS component,No,Forbidden (outcome-dependent),Regime collapsed
+battle_winner_equals_war_winner,DSS component,No,Forbidden (outcome-dependent),Battle victor = war victor
+duration_pressure,SES component,No,Forbidden (temporal),Log duration
+casualty_burden,SES component,No,Forbidden (outcome-dependent),Casualties relative to population
+military_personnel_decline,SES component,No,Forbidden (outcome-dependent),Personnel decline over war
+military_expenditure_burden,SES component,No,Forbidden (outcome-dependent),Expenditure as share of GDP
+energy_or_industrial_decline,SES component,No,Forbidden (outcome-dependent),Energy/industrial decline
+force_ratio,Predictive DSS,Yes,Allowed,Ratio of forces
+economic_disparity,Predictive DSS,Yes,Allowed,GDP disparity
+industrial_capacity_ratio,Predictive DSS,Yes,Allowed,Industrial capacity ratio
+logistics_vulnerability,Predictive DSS,Yes,Allowed,Supply line vulnerability
+surprise_indicator,Predictive DSS,Yes,Allowed,Force positioning
+alliance_asymmetry,Predictive DSS,Yes,Allowed,Alliance membership
+mobilization_speed,Predictive DSS,Yes,Allowed,Mobilization timelines
+regime_stability,Predictive DSS,Yes,Allowed,Political indicators
+military_a/sim,Simulation state,No,Forbidden (sim-internal),Side A military strength
+economic_a/sim,Simulation state,No,Forbidden (sim-internal),Side A economic capacity
+political_will_a/sim,Simulation state,No,Forbidden (sim-internal),Side A political will

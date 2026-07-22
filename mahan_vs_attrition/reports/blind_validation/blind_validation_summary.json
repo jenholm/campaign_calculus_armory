@@ -1,0 +1,23 @@
+{
+  "n_cases": 24,
+  "n_correct": 0,
+  "accuracy": 0.0,
+  "error_distribution": {
+    "other_mismatch": 21,
+    "false_decisive": 3
+  },
+  "by_human_label": {
+    "attritional": {
+      "n": 8,
+      "correct": 0
+    },
+    "decisive": {
+      "n": 9,
+      "correct": 0
+    },
+    "mixed": {
+      "n": 7,
+      "correct": 0
+    }
+  }
+}

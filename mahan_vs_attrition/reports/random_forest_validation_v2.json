@@ -1,0 +1,200 @@
+{
+  "m63_random_forest_validation": {
+    "Random Forest": {
+      "n_samples": 2137,
+      "n_features": 12,
+      "n_short_war": 1020,
+      "n_long_war": 1117,
+      "class_balance": "47.7% short, 52.3% long",
+      "cv_mean_accuracy": 0.7389,
+      "cv_std_accuracy": 0.0115,
+      "balanced_accuracy": 0.7383,
+      "precision": 0.7265,
+      "recall": 0.7265,
+      "f1": 0.7265,
+      "roc_auc": 0.8162,
+      "confusion_matrix": [
+        [
+          838,
+          279
+        ],
+        [
+          279,
+          741
+        ]
+      ],
+      "null_baseline_accuracy": 0.5227,
+      "null_baseline_class": 0,
+      "random_seed": 42,
+      "cv_folds": 5,
+      "estimator_params": {
+        "n_estimators": 100,
+        "max_depth": 5,
+        "random_state": 42
+      },
+      "gini_importances": {
+        "military_personnel_pct_change": 0.0702,
+        "military_personnel_initial": 0.0538,
+        "military_expenditure_pct_change": 0.0757,
+        "military_expenditure_initial": 0.0568,
+        "energy_consumption_pct_change": 0.1406,
+        "energy_consumption_initial": 0.0796,
+        "iron_steel_pct_change": 0.0067,
+        "iron_steel_initial": 0.0555,
+        "cinc_pct_change": 0.161,
+        "cinc_initial": 0.0523,
+        "battle_deaths_pct_change": 0.1051,
+        "battle_deaths_initial": 0.1429
+      }
+    },
+    "Logistic Regression": {
+      "n_samples": 2137,
+      "n_features": 12,
+      "n_short_war": 1020,
+      "n_long_war": 1117,
+      "class_balance": "47.7% short, 52.3% long",
+      "cv_mean_accuracy": 0.5517,
+      "cv_std_accuracy": 0.0146,
+      "balanced_accuracy": 0.5479,
+      "precision": 0.535,
+      "recall": 0.4647,
+      "f1": 0.4974,
+      "roc_auc": 0.5648,
+      "confusion_matrix": [
+        [
+          705,
+          412
+        ],
+        [
+          546,
+          474
+        ]
+      ],
+      "null_baseline_accuracy": 0.5227,
+      "null_baseline_class": 0,
+      "random_seed": 42,
+      "cv_folds": 5,
+      "estimator_params": {
+        "n_estimators": null,
+        "max_depth": null,
+        "random_state": 42
+      },
+      "coefficients": {
+        "military_personnel_pct_change": 0.0921,
+        "military_personnel_initial": -0.1785,
+        "military_expenditure_pct_change": -0.227,
+        "military_expenditure_initial": 0.0514,
+        "energy_consumption_pct_change": -0.2221,
+        "energy_consumption_initial": 0.1883,
+        "iron_steel_pct_change": 0.1167,
+        "iron_steel_initial": -0.152,
+        "cinc_pct_change": 0.2048,
+        "cinc_initial": 0.27,
+        "battle_deaths_pct_change": -1.1222,
+        "battle_deaths_initial": -0.1817
+      }
+    }
+  },
+  "m64_feature_importance": {
+    "top_rf_features": [
+      "cinc_pct_change",
+      "battle_deaths_initial",
+      "energy_consumption_pct_change",
+      "military_expenditure_pct_change",
+      "battle_deaths_pct_change"
+    ],
+    "top_lr_features": [
+      "battle_deaths_pct_change",
+      "energy_consumption_initial",
+      "cinc_pct_change",
+      "iron_steel_initial",
+      "cinc_initial"
+    ],
+    "feature_overlap_top5": [
+      "battle_deaths_pct_change",
+      "cinc_pct_change"
+    ],
+    "rf_advantage_analysis": {
+      "rf_test_accuracy": 0.7352,
+      "lr_test_accuracy": 0.5483,
+      "accuracy_gap": 0.1869,
+      "interpretation": "RF captures nonlinear interactions that LR misses. Feature importance overlap indicates shared predictive signals, while divergent rankings suggest RF leverages interaction effects."
+    },
+    "importance_by_gini": [
+      {
+        "feature": "cinc_pct_change",
+        "gini_importance": 0.17276040457472952,
+        "permutation_importance_mean": 0.10737279335410176
+      },
+      {
+        "feature": "battle_deaths_initial",
+        "gini_importance": 0.14108611863773654,
+        "permutation_importance_mean": 0.05202492211838005
+      },
+      {
+        "feature": "energy_consumption_pct_change",
+        "gini_importance": 0.11287395322868087,
+        "permutation_importance_mean": 0.04678089304257527
+      },
+      {
+        "feature": "military_expenditure_pct_change",
+        "gini_importance": 0.08995672006833752,
+        "permutation_importance_mean": 0.0378504672897196
+      },
+      {
+        "feature": "battle_deaths_pct_change",
+        "gini_importance": 0.08379953667112128,
+        "permutation_importance_mean": 0.030425752855659374
+      },
+      {
+        "feature": "cinc_initial",
+        "gini_importance": 0.0815835425158307,
+        "permutation_importance_mean": 0.037175493250259574
+      },
+      {
+        "feature": "military_personnel_pct_change",
+        "gini_importance": 0.07463386193579737,
+        "permutation_importance_mean": 0.026323987538940788
+      },
+      {
+        "feature": "energy_consumption_initial",
+        "gini_importance": 0.07361799787762484,
+        "permutation_importance_mean": 0.058099688473520227
+      },
+      {
+        "feature": "military_expenditure_initial",
+        "gini_importance": 0.06027867081941014,
+        "permutation_importance_mean": 0.02647975077881617
+      },
+      {
+        "feature": "military_personnel_initial",
+        "gini_importance": 0.06006697768916828,
+        "permutation_importance_mean": 0.01095534787123568
+      },
+      {
+        "feature": "iron_steel_initial",
+        "gini_importance": 0.04599808676010774,
+        "permutation_importance_mean": 0.008722741433021779
+      },
+      {
+        "feature": "iron_steel_pct_change",
+        "gini_importance": 0.0033441292214552764,
+        "permutation_importance_mean": 0.00020768431983384517
+      }
+    ]
+  },
+  "m65_feature_leakage_audit": {
+    "n_features": 40
+  },
+  "m67_threshold_sensitivity": {
+    "n_combinations": 175,
+    "mean_agreement": 0.8609,
+    "min_agreement": 0.7692,
+    "max_agreement": 1.0,
+    "current_thresholds": {
+      "min_axis": 45,
+      "mixed_both_above": 65,
+      "gap": 20
+    }
+  }
+}

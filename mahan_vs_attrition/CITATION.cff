@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "Decisive Shock or Strategic Exhaustion? A Dynamical Framework for War Termination Mechanisms"
+type: article
+authors:
+  - family-names: Enholm
+    given-names: Jake
+    affiliation: "Independent Researcher"
+abstract: >
+  We develop a computational framework for distinguishing between two competing
+  hypotheses of war termination: the Mahan hypothesis (decisive battles) and the
+  attrition hypothesis (cumulative exhaustion). Using a dynamical simulation
+  model applied to 4,220+ wars, we show that decisive events and attritional
+  processes are not competing explanations but interacting mechanisms occurring
+  at different phases of conflict. The paper demonstrates that historical
+  classification of wars as "decisive" or "attritional" often reflects hindsight
+  bias, and that structural indicators contain partial but not complete predictive
+  information about termination mechanisms.
+keywords:
+  - war termination
+  - decisive battle
+  - strategic exhaustion
+  - computational history
+  - dynamical simulation
+  - Mahan
+  - Clausewitz
+license: CC-BY-4.0
+repository-code: "https://github.com/jenholm/mahan-vs-attrition"
+date-released: "2026-07-17"

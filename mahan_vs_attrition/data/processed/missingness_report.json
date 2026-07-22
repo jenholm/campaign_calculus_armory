@@ -1,0 +1,63 @@
+{
+  "wars.parquet": {
+    "status": "present",
+    "rows": 4812,
+    "columns": 15,
+    "missing_pct": {
+      "end_date": 1.3,
+      "duration_days": 1.3
+    }
+  },
+  "war_participants.parquet": {
+    "status": "present",
+    "rows": 4582,
+    "columns": 4,
+    "missing_pct": {}
+  },
+  "war_years.parquet": {
+    "status": "present",
+    "rows": 678399,
+    "columns": 12,
+    "missing_pct": {
+      "battle_deaths": 49.1
+    }
+  },
+  "battles.parquet": {
+    "status": "present",
+    "rows": 1708,
+    "columns": 12,
+    "missing_pct": {
+      "distance_to_war_end_days": 2.0
+    }
+  },
+  "termination_events.parquet": {
+    "status": "present",
+    "rows": 4812,
+    "columns": 13,
+    "missing_pct": {
+      "termination_date": 1.3
+    }
+  },
+  "dss_scores.parquet": {
+    "status": "present",
+    "rows": 91,
+    "columns": 5,
+    "missing_pct": {}
+  },
+  "ses_scores.parquet": {
+    "status": "present",
+    "rows": 1928,
+    "columns": 4,
+    "missing_pct": {}
+  },
+  "termination_classification.parquet": {
+    "status": "present",
+    "rows": 1928,
+    "columns": 6,
+    "missing_pct": {
+      "dss_score": 95.3
+    }
+  },
+  "total_missing_tables": 0,
+  "total_tables_checked": 8
+}

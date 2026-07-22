@@ -1,0 +1,25 @@
+war,human_label,model_prediction,confidence,assessment,duration_months,outcome,final_dss_sim,final_ses_sim
+Six-Day War 1967,decisive,uncertain,0.769,indeterminate,25,negotiated_settlement,1.8,28.7
+Austro-Prussian War 1866,decisive,uncertain,0.743,indeterminate,24,negotiated_settlement,1.6,25.9
+Desert Storm 1991,decisive,uncertain,0.797,indeterminate,31,decisive_victory_a,1.3,31.0
+Franco-Prussian War 1870,decisive,uncertain,0.794,indeterminate,30,negotiated_settlement,1.5,30.9
+Russo-Turkish War 1877,decisive,uncertain,0.751,indeterminate,24,negotiated_settlement,1.4,26.5
+Vietnam War,attritional,uncertain,0.663,indeterminate,17,decisive_victory_a,1.1,17.4
+Soviet-Afghan War,attritional,decisive,0.505,false_decisive,1,decisive_victory_a,0.5,1.0
+WWI,attritional,uncertain,0.76,indeterminate,27,negotiated_settlement,2.0,27.9
+Iran-Iraq War,attritional,uncertain,0.654,indeterminate,13,negotiated_settlement,2.0,17.4
+Boer War,attritional,decisive,0.533,false_decisive,5,decisive_victory_a,0.8,4.1
+Chechen War (First),attritional,decisive,0.505,false_decisive,1,decisive_victory_a,0.5,1.0
+Korean War,mixed,uncertain,0.767,indeterminate,29,negotiated_settlement,2.0,28.7
+American Civil War,mixed,uncertain,0.747,indeterminate,25,negotiated_settlement,1.6,26.3
+WWII Eastern Front,mixed,uncertain,0.799,indeterminate,26,negotiated_settlement,2.2,32.1
+WWII Pacific,mixed,uncertain,0.812,indeterminate,35,negotiated_settlement,1.7,33.0
+Franco-Thai War 1940,mixed,uncertain,0.556,indeterminate,7,negotiated_settlement,1.7,7.3
+Yom Kippur War 1973,decisive,uncertain,0.763,indeterminate,25,negotiated_settlement,1.7,28.0
+Falklands War 1982,decisive,uncertain,0.753,indeterminate,25,negotiated_settlement,1.6,26.8
+Poland Campaign 1939,decisive,uncertain,0.697,indeterminate,20,decisive_victory_a,1.1,20.8
+Thirty Years War,attritional,uncertain,0.749,indeterminate,21,negotiated_settlement,2.6,27.5
+Peloponnesian War,attritional,uncertain,0.736,indeterminate,21,negotiated_settlement,2.6,26.3
+Napoleonic Wars,mixed,uncertain,0.815,indeterminate,27,negotiated_settlement,2.4,33.9
+Seven Years War,mixed,uncertain,0.771,indeterminate,24,negotiated_settlement,2.5,29.6
+Iraq War 2003,decisive,uncertain,0.765,indeterminate,27,decisive_victory_a,1.3,27.8

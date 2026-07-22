@@ -1,0 +1,66 @@
+\subsection{Data Sources}
+
+Our analysis draws on seven complementary data sources that together provide comprehensive coverage of armed conflicts from antiquity to the present. Table~\ref{tab:data_sources} summarizes the sources, their roles in the analysis, and their coverage.
+
+\begin{table}[ht]
+\centering
+\caption{Summary of data sources used in this study. Sources are classified by their primary role: conflict outcome data provides the dependent variable (what happened), while structural predictor data provides independent variables (pre-war conditions).}
+\label{tab:data_sources}
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.05}
+\begin{tabularx}{\textwidth}{@{}>{\RaggedRight\arraybackslash}p{0.22\textwidth} c c c r@{}}
+\toprule
+\textbf{Source} & \textbf{Role} & \textbf{Unit} & \textbf{Coverage} & \textbf{Records} \\
+\midrule
+\multicolumn{5}{l}{\textit{Conflict Outcome Data}} \\
+COW War Data (interstate) & Outcome & War-level & 1816--2007 & 91 wars \\
+COW War Data (intrastate) & Outcome & War-level & 1945--2007 & 251 wars \\
+Interstate War Battle Dataset & Outcome & Battle-level & 1600--2003 & 1,708 battles \\
+Brecke Conflict Catalog & Outcome & War-level & 1400--1789 & 3,708 conflicts \\
+\midrule
+\multicolumn{5}{l}{\textit{Structural Predictor Data}} \\
+SIPRI Military Expenditure & Predictor & Country-year & 1949--2022 & 174 countries \\
+\midrule
+\multicolumn{5}{l}{\textit{Dual-Role Data}} \\
+UCDP Battle-Related Deaths\textsuperscript{$\dagger$} & Both & Battle-year & 1989--2023 & 342 conflicts \\
+Manual Case Studies\textsuperscript{$\ddagger$} & Both & War-level & Antiquity--2023 & 30 wars \\
+\midrule
+\textbf{Total (merged)} & & & & \textbf{4,812 wars} \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize\textsuperscript{$\dagger$} Dual role: battle-death trajectories compute DSS; cumulative deaths compute SES.} \\
+\multicolumn{5}{l}{\footnotesize\textsuperscript{$\ddagger$} Mechanism classification, metric validation, and historical analysis.} \\
+\end{tabularx}
+\end{table}
+
+\subsection{Correlates of War Project}
+
+The Correlates of War (COW) project provides the backbone of our dataset. The COW War Data \citep{singer1972} catalogs interstate wars from 1816 to 2007, recording participants, dates, casualties, and outcomes for each dyadic conflict. We use version 4.1 of the dataset, which includes 91 interstate wars. The COW National Material Capabilities (NMC) dataset \citep{singer1972b} provides annual data on military expenditure, armed forces size, energy production, iron and steel production, urban population, and total population for major powers, enabling us to construct measures of relative material strength across war-years.
+
+The COW project also includes an intrastate war component covering civil wars and domestic conflicts from 1945 to 2007. We include these wars in our analysis to test whether the DSS and SES metrics generalize beyond purely interstate conflicts, though we note that the DSS metric requires battle-level data that is primarily available for interstate wars.
+
+\subsection{UCDP/PRIO Armed Conflict Dataset}
+
+The Uppsala Conflict Data Program (UCDP) and the Peace Research Institute Oslo (PRIO) maintain the most comprehensive dataset of armed conflicts from 1946 to the present \citep{gleditsch2002}. We use version 23.1 (2023 release), which includes 342 armed conflicts with battle-related deaths exceeding 25 per year. The UCDP data provides annual estimates of battle-related deaths, enabling us to construct mortality trajectories for each conflict. These trajectories are essential for computing the Strategic Exhaustion Score, which measures the cumulative impact of casualties over the duration of a war.
+
+\subsection{SIPRI Military Expenditure Database}
+
+The Stockholm International Peace Research Institute (SIPRI) maintains a comprehensive database of military expenditure for 174 countries from 1949 to the present \citep{sipri2023}. We use SIPRI data to construct measures of resource mobilization capacity and relative military spending, which serve as inputs to the SES metric. Military expenditure provides a proxy for the economic burden of warfare and the capacity of states to sustain prolonged conflict.
+
+\subsection{Interstate War Battle Dataset}
+
+The Interstate War Battle Dataset (IWB) \citep{rester2019} provides battle-level data for 1,708 battles across 89 interstate wars from 1600 to 2003. This dataset records the date, location, duration, participating forces, and casualties for individual battles, enabling us to compute the Decisive Shock Score. The IWB dataset is essential for our analysis because it provides the granular information needed to identify moments of decisive impact versus periods of gradual attrition.
+
+The IWB dataset has geographic and temporal limitations: it covers primarily European and North American conflicts, and its coverage is more complete for the nineteenth and twentieth centuries than for earlier periods. These limitations affect the generalizability of DSS scores and must be considered when interpreting our results.
+
+\subsection{Brecke Conflict Catalog}
+
+Petter Brecke's Conflict Catalog \citep{brecke1999} provides one of the most comprehensive historical records of armed conflicts in Europe from 1400 to 1789. The catalog includes 3,708 conflicts ranging from small border disputes to major wars, with information on participants, duration, and outcomes. The Brecke data extends our analysis into the early modern period and provides a critical bridge between modern systematic datasets and pre-modern historical records.
+
+\subsection{Manual Case Studies}
+
+To evaluate our quantitative metrics against detailed historical analysis, we selected 30 wars for in-depth case study examination, spanning time periods from antiquity to the present, geographic regions across Europe, Asia, and global conflicts, conflict types including interstate and intrastate, and outcome types from decisive victory to prolonged attrition. For each case study, we compiled detailed battle-level data and strategic assessments to assess our automated metrics. The full case inventory is provided in Appendix~\ref{app:case_inventory}.
+
+\subsection{Dataset Integration}
+
+Integrating these seven sources required addressing several methodological challenges. Temporal alignment was necessary because the sources cover different time periods and use different dating conventions. Geographic alignment was required because conflict boundaries and state names differ across sources. We addressed these challenges through a normalization pipeline that: (1) standardizes country names and codes to the COW system; (2) aligns temporal boundaries to calendar years; (3) handles missing data through multiple imputation for countries with partial records; and (4) merges battle-level, war-year, and war-level datasets through hierarchical keys. The resulting integrated dataset contains 4,812 wars, 678,399 war-year observations, and 1,708 battle records, forming one of the largest and most diverse datasets assembled for computational analysis of war termination mechanisms.

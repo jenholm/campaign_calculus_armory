@@ -1,0 +1,6 @@
+cohort,n,size_of_intersection_with_B,size_of_intersection_with_C,use_case,size_of_intersection_with_A
+A: COW interstate + IWB battles,91,91.0,0.0,battle-decisive causation tests (DSS),
+B: wars with SES-capability data,2571,,0.0,strategic exhaustion tests (SES),91.0
+C: manual case studies,10,0.0,,validation / ground truth,0.0
+"D: modern (UCDP, 1989+)",358,358.0,,modern conflict event-level analysis,7.0
+E: all conflicts (descriptive only),4812,2571.0,,descriptive statistics only,91.0

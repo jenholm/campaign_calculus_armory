@@ -1,0 +1,141 @@
+preset,param,value,baseline_value,outcome,mechanism,secondary_mechanism,confidence,termination_event,duration_months,decisive_shock_score,strategic_exhaustion_score,political_exhaustion_score
+gulf_war_1991,shock_strength,45.0,90,decisive_victory_a,strategic exhaustion,decisive shock,0.6529321774275355,political/military collapse of side B,50,20.6,31.5,26.4
+gulf_war_1991,shock_strength,67.5,90,decisive_victory_a,strategic exhaustion,decisive shock,0.6279637966807367,political/military collapse of side B,40,20.7,28.1,21.9
+gulf_war_1991,shock_strength,90.0,90,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,shock_strength,112.5,90,decisive_victory_a,strategic exhaustion,decisive shock,0.5956967028526717,political/military collapse of side B,29,20.7,25.2,17.8
+gulf_war_1991,shock_strength,135.0,90,decisive_victory_a,strategic exhaustion,decisive shock,0.5973454997560842,political/military collapse of side B,25,20.8,24.5,19.5
+gulf_war_1991,attrition_rate,15.0,30,decisive_victory_a,strategic exhaustion,decisive shock,0.5848564307379367,political/military collapse of side B,40,20.6,22.7,18.8
+gulf_war_1991,attrition_rate,22.5,30,decisive_victory_a,strategic exhaustion,decisive shock,0.6006477897250686,political/military collapse of side B,35,20.6,24.0,21.4
+gulf_war_1991,attrition_rate,30.0,30,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,attrition_rate,37.5,30,decisive_victory_a,strategic exhaustion,decisive shock,0.6231179255133451,political/military collapse of side B,30,20.7,27.5,19.8
+gulf_war_1991,attrition_rate,45.0,30,decisive_victory_a,strategic exhaustion,decisive shock,0.6245844242889018,political/military collapse of side B,29,20.7,29.0,20.0
+gulf_war_1991,economic_resilience,40.0,80,decisive_victory_a,strategic exhaustion,decisive shock,0.6163803063624551,political/military collapse of side B,30,20.7,26.9,18.9
+gulf_war_1991,economic_resilience,60.0,80,decisive_victory_a,strategic exhaustion,decisive shock,0.6082630021841788,political/military collapse of side B,30,20.6,26.1,18.3
+gulf_war_1991,economic_resilience,80.0,80,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,economic_resilience,100.0,80,decisive_victory_a,strategic exhaustion,decisive shock,0.6194465532889709,political/military collapse of side B,35,20.6,25.6,23.3
+gulf_war_1991,economic_resilience,120.0,80,decisive_victory_a,strategic exhaustion,decisive shock,0.6095001425685086,political/military collapse of side B,35,20.6,24.7,22.5
+gulf_war_1991,political_resilience,35.0,70,decisive_victory_a,strategic exhaustion,decisive shock,0.6070159166297393,political/military collapse of side B,31,20.6,25.6,20.2
+gulf_war_1991,political_resilience,52.5,70,decisive_victory_a,strategic exhaustion,decisive shock,0.6063621730584645,political/military collapse of side B,31,20.6,25.5,19.5
+gulf_war_1991,political_resilience,70.0,70,decisive_victory_a,strategic exhaustion,decisive shock,0.6057051595346821,political/military collapse of side B,31,20.6,25.5,18.8
+gulf_war_1991,political_resilience,87.5,70,decisive_victory_a,strategic exhaustion,decisive shock,0.6050585205590228,political/military collapse of side B,31,20.6,25.4,18.1
+gulf_war_1991,political_resilience,105.0,70,decisive_victory_a,strategic exhaustion,decisive shock,0.6043982892538887,political/military collapse of side B,31,20.6,25.4,17.5
+vietnam_war,shock_strength,12.5,25,decisive_victory_a,strategic exhaustion,decisive shock,0.5916043234601436,political/military collapse of side B,20,20.7,29.6,10.0
+vietnam_war,shock_strength,18.8,25,decisive_victory_a,strategic exhaustion,decisive shock,0.5833080706459975,political/military collapse of side B,19,20.7,29.0,9.3
+vietnam_war,shock_strength,25.0,25,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,shock_strength,31.2,25,decisive_victory_a,strategic exhaustion,decisive shock,0.5744679246362108,political/military collapse of side B,17,20.7,27.8,9.3
+vietnam_war,shock_strength,37.5,25,decisive_victory_a,strategic exhaustion,decisive shock,0.5703668618192682,political/military collapse of side B,16,20.7,27.3,8.9
+vietnam_war,attrition_rate,37.5,75,decisive_victory_a,strategic exhaustion,decisive shock,0.5676212443516622,political/military collapse of side B,29,20.4,25.9,8.2
+vietnam_war,attrition_rate,56.2,75,decisive_victory_a,strategic exhaustion,decisive shock,0.5733557280092733,political/military collapse of side B,22,20.5,27.4,8.7
+vietnam_war,attrition_rate,75.0,75,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,attrition_rate,93.8,75,decisive_victory_a,strategic exhaustion,decisive shock,0.5806669117780485,political/military collapse of side B,15,20.8,28.9,10.2
+vietnam_war,attrition_rate,112.5,75,decisive_victory_a,strategic exhaustion,decisive shock,0.606826077835908,political/military collapse of side B,15,20.9,31.3,11.7
+vietnam_war,economic_resilience,35.0,70,decisive_victory_a,strategic exhaustion,decisive shock,0.5686943806336459,political/military collapse of side B,15,20.8,28.0,9.2
+vietnam_war,economic_resilience,52.5,70,decisive_victory_a,strategic exhaustion,decisive shock,0.5726721064503875,political/military collapse of side B,16,20.7,28.0,8.9
+vietnam_war,economic_resilience,70.0,70,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,economic_resilience,87.5,70,decisive_victory_a,strategic exhaustion,decisive shock,0.5895129362454572,political/military collapse of side B,20,20.6,28.8,10.0
+vietnam_war,economic_resilience,105.0,70,decisive_victory_a,strategic exhaustion,decisive shock,0.596735481768367,political/military collapse of side B,23,20.5,29.4,10.4
+vietnam_war,political_resilience,20.0,40,decisive_victory_a,strategic exhaustion,decisive shock,0.5713070184150908,political/military collapse of side B,17,20.7,27.8,9.7
+vietnam_war,political_resilience,30.0,40,decisive_victory_a,strategic exhaustion,decisive shock,0.570902948866521,political/military collapse of side B,17,20.7,27.8,9.4
+vietnam_war,political_resilience,40.0,40,decisive_victory_a,strategic exhaustion,decisive shock,0.5704851597313894,political/military collapse of side B,17,20.7,27.7,9.1
+vietnam_war,political_resilience,50.0,40,decisive_victory_a,strategic exhaustion,decisive shock,0.5700802636690065,political/military collapse of side B,17,20.7,27.7,8.8
+vietnam_war,political_resilience,60.0,40,decisive_victory_a,strategic exhaustion,decisive shock,0.5696604900149902,political/military collapse of side B,17,20.7,27.6,8.5
+wwi,shock_strength,20.0,40,negotiated_settlement,strategic exhaustion,decisive shock,0.6183402040732756,negotiated settlement,22,20.8,32.6,17.2
+wwi,shock_strength,30.0,40,negotiated_settlement,strategic exhaustion,decisive shock,0.6124090516383893,negotiated settlement,21,20.8,32.2,17.4
+wwi,shock_strength,40.0,40,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+wwi,shock_strength,50.0,40,negotiated_settlement,strategic exhaustion,decisive shock,0.5961361404109854,negotiated settlement,18,21.0,30.5,16.1
+wwi,shock_strength,60.0,40,negotiated_settlement,strategic exhaustion,decisive shock,0.5994127310949988,negotiated settlement,18,21.1,30.7,16.4
+wwi,attrition_rate,40.0,80,negotiated_settlement,strategic exhaustion,decisive shock,0.6195980673817633,negotiated settlement,39,20.8,31.5,20.4
+wwi,attrition_rate,60.0,80,negotiated_settlement,strategic exhaustion,decisive shock,0.6116498846508345,negotiated settlement,26,20.9,31.7,17.7
+wwi,attrition_rate,80.0,80,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+wwi,attrition_rate,100.0,80,negotiated_settlement,strategic exhaustion,decisive shock,0.6024427274938068,negotiated settlement,16,21.0,31.4,16.0
+wwi,attrition_rate,120.0,80,negotiated_settlement,strategic exhaustion,decisive shock,0.5873664180814905,negotiated settlement,13,21.2,30.8,15.2
+wwi,economic_resilience,30.0,60,negotiated_settlement,strategic exhaustion,decisive shock,0.5952339765517766,negotiated settlement,17,21.0,30.7,15.6
+wwi,economic_resilience,45.0,60,negotiated_settlement,strategic exhaustion,decisive shock,0.6019928985472931,negotiated settlement,18,21.0,31.1,16.3
+wwi,economic_resilience,60.0,60,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+wwi,economic_resilience,75.0,60,negotiated_settlement,strategic exhaustion,decisive shock,0.6199721687394705,negotiated settlement,23,20.9,32.7,17.7
+wwi,economic_resilience,90.0,60,negotiated_settlement,strategic exhaustion,decisive shock,0.6300178620300277,negotiated settlement,25,20.9,33.4,20.3
+wwi,political_resilience,25.0,50,negotiated_settlement,strategic exhaustion,decisive shock,0.6016054359831435,negotiated settlement,19,20.9,31.1,16.8
+wwi,political_resilience,37.5,50,negotiated_settlement,strategic exhaustion,decisive shock,0.6010313216304132,negotiated settlement,19,20.9,31.0,16.3
+wwi,political_resilience,50.0,50,negotiated_settlement,strategic exhaustion,decisive shock,0.6004557784428932,negotiated settlement,19,20.9,30.9,15.7
+wwi,political_resilience,62.5,50,negotiated_settlement,strategic exhaustion,decisive shock,0.5998800696963575,negotiated settlement,19,20.9,30.9,15.2
+wwi,political_resilience,75.0,50,negotiated_settlement,strategic exhaustion,decisive shock,0.5993012321879752,negotiated settlement,19,20.9,30.8,14.7
+franco_prussian,shock_strength,45.0,90,negotiated_settlement,strategic exhaustion,decisive shock,0.6723118094198338,negotiated settlement,52,20.7,36.1,34.2
+franco_prussian,shock_strength,67.5,90,decisive_victory_a,strategic exhaustion,decisive shock,0.6219156796405825,political/military collapse of side B,35,20.8,28.9,26.4
+franco_prussian,shock_strength,90.0,90,decisive_victory_a,strategic exhaustion,decisive shock,0.6118290538503999,political/military collapse of side B,30,20.7,27.6,21.5
+franco_prussian,shock_strength,112.5,90,decisive_victory_a,strategic exhaustion,decisive shock,0.5973178765418523,political/military collapse of side B,25,20.8,26.2,21.2
+franco_prussian,shock_strength,135.0,90,decisive_victory_a,strategic exhaustion,decisive shock,0.6127509490630534,political/military collapse of side B,25,20.9,26.4,23.1
+franco_prussian,attrition_rate,17.5,35,decisive_victory_a,strategic exhaustion,decisive shock,0.5876518724474695,political/military collapse of side B,40,20.7,24.9,21.9
+franco_prussian,attrition_rate,26.2,35,decisive_victory_a,strategic exhaustion,decisive shock,0.6104532645032782,political/military collapse of side B,35,20.7,26.4,25.4
+franco_prussian,attrition_rate,35.0,35,decisive_victory_a,strategic exhaustion,decisive shock,0.6118290538503999,political/military collapse of side B,30,20.7,27.6,21.5
+franco_prussian,attrition_rate,43.8,35,decisive_victory_a,strategic exhaustion,decisive shock,0.6189711726652247,political/military collapse of side B,29,20.8,29.5,22.2
+franco_prussian,attrition_rate,52.5,35,decisive_victory_a,strategic exhaustion,decisive shock,0.6274130758013717,political/military collapse of side B,25,20.8,30.0,24.1
+franco_prussian,economic_resilience,35.0,70,decisive_victory_a,strategic exhaustion,decisive shock,0.6011423951048154,political/military collapse of side B,27,20.8,27.8,20.5
+franco_prussian,economic_resilience,52.5,70,decisive_victory_a,strategic exhaustion,decisive shock,0.6198382406249161,political/military collapse of side B,30,20.7,28.3,22.1
+franco_prussian,economic_resilience,70.0,70,decisive_victory_a,strategic exhaustion,decisive shock,0.6118290538503999,political/military collapse of side B,30,20.7,27.6,21.5
+franco_prussian,economic_resilience,87.5,70,decisive_victory_a,strategic exhaustion,decisive shock,0.6031401465224474,political/military collapse of side B,30,20.7,26.9,20.8
+franco_prussian,economic_resilience,105.0,70,decisive_victory_a,strategic exhaustion,decisive shock,0.6240348945326257,political/military collapse of side B,35,20.7,27.6,27.3
+franco_prussian,political_resilience,30.0,60,decisive_victory_a,strategic exhaustion,decisive shock,0.613019763231832,political/military collapse of side B,30,20.7,27.6,22.9
+franco_prussian,political_resilience,45.0,60,decisive_victory_a,strategic exhaustion,decisive shock,0.612378028377117,political/military collapse of side B,30,20.7,27.6,22.2
+franco_prussian,political_resilience,60.0,60,decisive_victory_a,strategic exhaustion,decisive shock,0.6118290538503999,political/military collapse of side B,30,20.7,27.6,21.5
+franco_prussian,political_resilience,75.0,60,decisive_victory_a,strategic exhaustion,decisive shock,0.6112810250012873,political/military collapse of side B,30,20.7,27.6,20.7
+franco_prussian,political_resilience,90.0,60,decisive_victory_a,strategic exhaustion,decisive shock,0.6107211604325532,political/military collapse of side B,30,20.7,27.6,20.0
+korean_war,shock_strength,25.0,50,negotiated_settlement,strategic exhaustion,decisive shock,0.6423686027930171,negotiated settlement,33,20.7,32.9,16.4
+korean_war,shock_strength,37.5,50,negotiated_settlement,strategic exhaustion,decisive shock,0.6333526693735514,negotiated settlement,30,20.9,32.3,15.0
+korean_war,shock_strength,50.0,50,negotiated_settlement,strategic exhaustion,decisive shock,0.6303918441421046,negotiated settlement,29,20.9,32.0,15.1
+korean_war,shock_strength,62.5,50,negotiated_settlement,strategic exhaustion,decisive shock,0.6296745590686934,negotiated settlement,28,21.0,31.8,14.8
+korean_war,shock_strength,75.0,50,negotiated_settlement,strategic exhaustion,decisive shock,0.6347426586488216,negotiated settlement,28,21.1,32.0,15.3
+korean_war,attrition_rate,30.0,60,decisive_victory_a,strategic exhaustion,decisive shock,0.6632544385816636,political/military collapse of side B,56,20.7,32.1,20.7
+korean_war,attrition_rate,45.0,60,negotiated_settlement,strategic exhaustion,decisive shock,0.6431263826738903,negotiated settlement,40,20.8,32.2,17.4
+korean_war,attrition_rate,60.0,60,negotiated_settlement,strategic exhaustion,decisive shock,0.6303918441421046,negotiated settlement,29,20.9,32.0,15.1
+korean_war,attrition_rate,75.0,60,negotiated_settlement,strategic exhaustion,decisive shock,0.6245470603483155,negotiated settlement,24,21.0,32.4,14.7
+korean_war,attrition_rate,90.0,60,negotiated_settlement,strategic exhaustion,decisive shock,0.6280839950963026,negotiated settlement,21,21.1,33.0,15.4
+korean_war,economic_resilience,37.5,75,negotiated_settlement,strategic exhaustion,decisive shock,0.6148496004841104,negotiated settlement,24,21.1,31.4,13.4
+korean_war,economic_resilience,56.2,75,negotiated_settlement,strategic exhaustion,decisive shock,0.6180671771536965,negotiated settlement,26,21.0,31.5,14.2
+korean_war,economic_resilience,75.0,75,negotiated_settlement,strategic exhaustion,decisive shock,0.6303918441421046,negotiated settlement,29,20.9,32.0,15.1
+korean_war,economic_resilience,93.8,75,negotiated_settlement,strategic exhaustion,decisive shock,0.6550246969675352,negotiated settlement,35,20.9,33.0,20.0
+korean_war,economic_resilience,112.5,75,negotiated_settlement,strategic exhaustion,decisive shock,0.6712738737404749,negotiated settlement,42,20.8,34.9,21.1
+korean_war,political_resilience,27.5,55,negotiated_settlement,strategic exhaustion,decisive shock,0.6317185237001649,negotiated settlement,29,20.9,32.2,16.5
+korean_war,political_resilience,41.2,55,negotiated_settlement,strategic exhaustion,decisive shock,0.6310565215242371,negotiated settlement,29,20.9,32.1,15.8
+korean_war,political_resilience,55.0,55,negotiated_settlement,strategic exhaustion,decisive shock,0.6303918441421046,negotiated settlement,29,20.9,32.0,15.1
+korean_war,political_resilience,68.8,55,negotiated_settlement,strategic exhaustion,decisive shock,0.6297254232673123,negotiated settlement,29,20.9,32.0,14.4
+korean_war,political_resilience,82.5,55,negotiated_settlement,strategic exhaustion,decisive shock,0.6290560637590503,negotiated settlement,29,20.9,31.9,13.7
+iran_iraq,shock_strength,15.0,30,negotiated_settlement,decisive shock,strategic exhaustion,0.5212990751736073,negotiated settlement,9,21.0,24.6,5.5
+iran_iraq,shock_strength,22.5,30,negotiated_settlement,decisive shock,strategic exhaustion,0.5192002256216944,negotiated settlement,9,21.0,24.7,5.5
+iran_iraq,shock_strength,30.0,30,negotiated_settlement,decisive shock,strategic exhaustion,0.517405705214653,negotiated settlement,9,21.0,24.8,5.6
+iran_iraq,shock_strength,37.5,30,negotiated_settlement,decisive shock,strategic exhaustion,0.5165507814680546,negotiated settlement,9,21.1,24.8,5.6
+iran_iraq,shock_strength,45.0,30,negotiated_settlement,decisive shock,strategic exhaustion,0.5386308611899787,negotiated settlement,8,21.2,23.9,4.3
+iran_iraq,attrition_rate,42.5,85,negotiated_settlement,decisive shock,strategic exhaustion,0.5051416557247191,negotiated settlement,15,20.7,25.1,7.7
+iran_iraq,attrition_rate,63.8,85,negotiated_settlement,decisive shock,strategic exhaustion,0.5293606130030671,negotiated settlement,10,20.8,23.8,5.9
+iran_iraq,attrition_rate,85.0,85,negotiated_settlement,decisive shock,strategic exhaustion,0.517405705214653,negotiated settlement,9,21.0,24.8,5.6
+iran_iraq,attrition_rate,106.2,85,negotiated_settlement,decisive shock,strategic exhaustion,0.5375735202049372,negotiated settlement,7,21.2,24.1,4.6
+iran_iraq,attrition_rate,127.5,85,negotiated_settlement,decisive shock,strategic exhaustion,0.5379604297870761,negotiated settlement,6,21.3,24.1,4.9
+iran_iraq,economic_resilience,20.0,40,negotiated_settlement,decisive shock,strategic exhaustion,0.5301614418772117,negotiated settlement,8,21.1,24.3,4.5
+iran_iraq,economic_resilience,30.0,40,negotiated_settlement,decisive shock,strategic exhaustion,0.5353893800550857,negotiated settlement,8,21.1,24.0,4.4
+iran_iraq,economic_resilience,40.0,40,negotiated_settlement,decisive shock,strategic exhaustion,0.517405705214653,negotiated settlement,9,21.0,24.8,5.6
+iran_iraq,economic_resilience,50.0,40,negotiated_settlement,decisive shock,strategic exhaustion,0.5231366230781926,negotiated settlement,9,21.0,24.5,5.4
+iran_iraq,economic_resilience,60.0,40,negotiated_settlement,decisive shock,strategic exhaustion,0.5005416853614483,negotiated settlement,10,20.9,25.4,7.0
+iran_iraq,political_resilience,25.0,50,negotiated_settlement,decisive shock,strategic exhaustion,0.5166411244628754,negotiated settlement,9,21.0,24.8,6.0
+iran_iraq,political_resilience,37.5,50,negotiated_settlement,decisive shock,strategic exhaustion,0.5170328431381493,negotiated settlement,9,21.0,24.8,5.8
+iran_iraq,political_resilience,50.0,50,negotiated_settlement,decisive shock,strategic exhaustion,0.517405705214653,negotiated settlement,9,21.0,24.8,5.6
+iran_iraq,political_resilience,62.5,50,negotiated_settlement,decisive shock,strategic exhaustion,0.5177983212015946,negotiated settlement,9,21.0,24.7,5.4
+iran_iraq,political_resilience,75.0,50,negotiated_settlement,decisive shock,strategic exhaustion,0.5181914017322227,negotiated settlement,9,21.0,24.7,5.1
+wwii,shock_strength,30.0,60,negotiated_settlement,strategic exhaustion,decisive shock,0.6267364561287537,negotiated settlement,22,20.8,33.4,16.8
+wwii,shock_strength,45.0,60,negotiated_settlement,strategic exhaustion,decisive shock,0.6218494913401451,negotiated settlement,21,20.9,33.0,17.0
+wwii,shock_strength,60.0,60,negotiated_settlement,strategic exhaustion,decisive shock,0.61945032542349,negotiated settlement,20,21.1,32.4,16.7
+wwii,shock_strength,75.0,60,negotiated_settlement,strategic exhaustion,decisive shock,0.6080076800517933,negotiated settlement,18,21.2,31.3,16.1
+wwii,shock_strength,90.0,60,negotiated_settlement,strategic exhaustion,decisive shock,0.6119484137038471,negotiated settlement,18,21.3,31.6,16.5
+wwii,attrition_rate,40.0,80,negotiated_settlement,strategic exhaustion,decisive shock,0.6303414118236111,negotiated settlement,37,20.9,32.2,20.4
+wwii,attrition_rate,60.0,80,negotiated_settlement,strategic exhaustion,decisive shock,0.6210505512989205,negotiated settlement,25,21.0,32.2,17.5
+wwii,attrition_rate,80.0,80,negotiated_settlement,strategic exhaustion,decisive shock,0.61945032542349,negotiated settlement,20,21.1,32.4,16.7
+wwii,attrition_rate,100.0,80,negotiated_settlement,strategic exhaustion,decisive shock,0.6184344596681245,negotiated settlement,17,21.2,32.9,16.9
+wwii,attrition_rate,120.0,80,negotiated_settlement,strategic exhaustion,decisive shock,0.609687479467519,negotiated settlement,14,21.4,32.5,16.7
+wwii,economic_resilience,25.0,50,negotiated_settlement,strategic exhaustion,decisive shock,0.6169363534249983,negotiated settlement,18,21.2,32.3,16.5
+wwii,economic_resilience,37.5,50,negotiated_settlement,strategic exhaustion,decisive shock,0.6106870882619203,negotiated settlement,18,21.1,31.7,16.1
+wwii,economic_resilience,50.0,50,negotiated_settlement,strategic exhaustion,decisive shock,0.61945032542349,negotiated settlement,20,21.1,32.4,16.7
+wwii,economic_resilience,62.5,50,negotiated_settlement,strategic exhaustion,decisive shock,0.6320207652239986,negotiated settlement,23,21.0,33.8,17.7
+wwii,economic_resilience,75.0,50,negotiated_settlement,strategic exhaustion,decisive shock,0.6381016168997268,negotiated settlement,24,21.0,34.1,18.9
+wwii,political_resilience,20.0,40,negotiated_settlement,strategic exhaustion,decisive shock,0.6202585725707874,negotiated settlement,20,21.1,32.5,17.6
+wwii,political_resilience,30.0,40,negotiated_settlement,strategic exhaustion,decisive shock,0.6198553611092997,negotiated settlement,20,21.1,32.5,17.1
+wwii,political_resilience,40.0,40,negotiated_settlement,strategic exhaustion,decisive shock,0.61945032542349,negotiated settlement,20,21.1,32.4,16.7
+wwii,political_resilience,50.0,40,negotiated_settlement,strategic exhaustion,decisive shock,0.6190352573365752,negotiated settlement,20,21.1,32.4,16.3
+wwii,political_resilience,60.0,40,negotiated_settlement,strategic exhaustion,decisive shock,0.6186290661185043,negotiated settlement,20,21.1,32.3,15.8

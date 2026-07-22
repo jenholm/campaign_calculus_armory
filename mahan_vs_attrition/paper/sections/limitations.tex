@@ -1,0 +1,35 @@
+Several limitations constrain the interpretation of these results.
+
+\subsection{Circularity Risk in Simulation DSS/SES}
+
+A fundamental concern with the simulation-derived DSS and SES metrics is potential circularity. The DSS and SES computed from simulated trajectories (Equations~\ref{eq:sim_dss} and \ref{eq:sim_ses}) are derived from the same state variables that the simulation dynamics produce. This means that the simulation's classification of its own outcomes as ``decisive'' or ``attritional'' is partially a restatement of the parameter regime used to generate the trajectory, rather than an independent empirical test. The simulation does not independently validate historical outcomes; it demonstrates that the proposed mechanisms can generate internally consistent conflict trajectories. We mitigate this by: (1) comparing simulation outputs against external historical data where available; (2) using the simulation primarily as a tool for exploring parameter spaces and demonstrating that DSS and SES can emerge from interacting attritional and shock processes, rather than as a classifier; and (3) reporting the empirical DSS/SES metrics computed from external data sources (the IWB and COW datasets) separately from the simulation-derived values. Readers should interpret simulation-derived DSS/SES as measures of internal model consistency rather than as empirical findings.
+
+\subsection{Parameter Sensitivity Concerns}
+
+The simulation model includes 23 internal coefficients classified as literature-derived (22\%), normalized assumption (57\%), or calibration parameter (22\%) in Appendix~\ref{app:parameters}. Our sensitivity analysis varies key parameters (shock strength, attrition rate, economic resilience, and political resilience) over a range of $\pm 50\%$ from baseline values. The model is structurally robust, with a mean classification flip rate of 1.7\% across control parameters and 0.3\% across internal coefficients. However, the sensitivity analysis was conducted on six historical presets with specific initial conditions; robustness to arbitrary initial conditions has not been tested. Additionally, the analysis uses a discrete classification rule (flip or no flip); continuous measures of output sensitivity (e.g., DSS/SES score trajectories) may reveal subtler parameter dependencies.
+
+\subsection{Limited Validation Dataset}
+
+The simulation mechanism demonstration comprises 7 historical case studies evaluated with the mechanism-trajectory classifier. This is a small interpretive sample, not a definitive validation set. The results should therefore be treated as suggestive rather than conclusive. A larger independent validation study, ideally with historians assigning mechanism labels before seeing model outputs, is required before making strong predictive claims. A larger blind evaluation sample (50+ cases) is needed to draw robust conclusions about predictive performance.
+
+\subsection{Data Quality and Coverage}
+
+The Interstate War Battle Dataset provides the most granular data for computing DSS, but it covers primarily European and North American conflicts and is more complete for the nineteenth and twentieth centuries than for earlier periods. This geographic and temporal bias means that our DSS results are most reliable for modern interstate wars and may not generalize to ancient, medieval, or non-Western conflicts. For intrastate conflicts and irregular warfare, the DSS must be estimated from aggregate data using imputation models, introducing additional uncertainty. The SES metric has broader applicability but lower precision for conflicts with detailed battle-level records.
+
+\subsection{Subjectivity in Classification}
+
+The hybrid classification rule (Equation~\ref{eq:hybrid}) involves threshold choices (the minimum axis value of 45, the mixed threshold of 65, and the margin of 20) that were calibrated against a small golden set of historical cases. Different thresholds would shift the distribution of classifications at the margins. Our sensitivity analysis conducted 175 parameter combinations across the threshold space, finding that agreement with the current classification ranges from 76.9\% to 100\% (mean 86.1\%). Thresholds influence boundary cases but do not change the broad mechanism interpretation. The precise percentages of wars classified as decisive, attritional, or mixed are method-dependent. The classification is best understood as a useful heuristic rather than a ground-truth taxonomy.
+
+\subsection{Model Simplifications}
+
+Our simulation model omits several factors known to influence war dynamics: alliance interactions, intelligence operations, geographic terrain, weather, technological change, and external intervention. These omissions are deliberate, the model is designed to isolate the interaction between shock and attrition mechanisms, but they limit its applicability to any specific historical conflict. The model's strength lies in generating qualitative patterns that match aggregate historical dynamics, not in reproducing the precise trajectory of any individual war.
+
+These limitations restrict the strength of the empirical claim. The present paper should be read as a framework and demonstration, with independent validation left to future work.
+
+\subsection{Multiple Mechanisms per War}
+
+Our classifier assigns a single dominant mechanism to each war, but most conflicts involve multiple mechanisms operating at different phases. The Korean War, for example, involved decisive battles (Inchon landing), exhaustion dynamics (stalemate along the 38th parallel), and negotiated settlement. Our mechanism-trajectory classifier captures this by separating the termination event from the strategic mechanism, but it still assigns a single ``dominant'' label. Future work should explore multi-label classification or continuous mechanism scores that capture the relative contribution of shock and exhaustion at each phase of a conflict, rather than reducing the entire war to a single category.
+
+\subsection{Model Development and Classification Bias}
+
+We developed the simulation model, designed the mechanism-trajectory classifier, and assigned the historical mechanism classifications. This creates a potential source of confirmation bias: we may have unintentionally tuned the classifier criteria to match prior expectations during development. We mitigate this by: (1) using explicit, reproducible scoring formulas (Section~\ref{sec:methods}) that do not require subjective judgment; (2) comparing classifier outputs against independently documented historical assessments; and (3) reporting the full scoring breakdown for each case. Nonetheless, independent verification by historians blind to simulation results would strengthen the analysis.

@@ -1,0 +1,98 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[margin=1in]{geometry}
+\usepackage{float}
+\usepackage{url}
+\urlstyle{same}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{ragged2e}
+
+\makeatletter
+\setlength{\@fptop}{0pt}
+\setlength{\@fpsep}{3\baselineskip}
+\setlength{\@fpbot}{0pt plus 1fil}
+\makeatother
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue
+}
+
+\title{Decisive Shock or Strategic Exhaustion? A Dynamical Model of War Termination Mechanisms}
+
+\author{
+  Jake Enholm\\
+  Data Scientist
+}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\input{sections/abstract}
+
+\section{Introduction}
+\label{sec:introduction}
+\input{sections/introduction}
+\clearpage
+
+\section{Background}
+\label{sec:background}
+\input{sections/background}
+\clearpage
+
+\section{Data}
+\label{sec:data}
+\input{sections/data}
+\clearpage
+
+\section{Methods}
+\label{sec:methods}
+\input{sections/methods}
+\clearpage
+
+\section{Results}
+\label{sec:results}
+\input{sections/results}
+\clearpage
+
+\section{Discussion}
+\label{sec:discussion}
+\input{sections/discussion}
+\clearpage
+
+\section{Falsification Criteria}
+\label{sec:falsification_section}
+\input{sections/falsification}
+\clearpage
+
+\section{Limitations}
+\label{sec:limitations}
+\input{sections/limitations}
+\clearpage
+
+\section{Conclusion}
+\label{sec:conclusion}
+\input{sections/conclusion}
+\clearpage
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\appendix
+\input{sections/appendix}
+\input{sections/supplementary}
+
+\end{document}

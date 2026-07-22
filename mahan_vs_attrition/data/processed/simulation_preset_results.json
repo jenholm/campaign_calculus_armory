@@ -1,0 +1,30 @@
+{
+  "gulf_war_1991": {
+    "outcome": "decisive_victory_a",
+    "termination_month": 31
+  },
+  "vietnam_war": {
+    "outcome": "decisive_victory_a",
+    "termination_month": 17
+  },
+  "wwi": {
+    "outcome": "negotiated_settlement",
+    "termination_month": 19
+  },
+  "franco_prussian": {
+    "outcome": "decisive_victory_a",
+    "termination_month": 30
+  },
+  "korean_war": {
+    "outcome": "negotiated_settlement",
+    "termination_month": 29
+  },
+  "iran_iraq": {
+    "outcome": "negotiated_settlement",
+    "termination_month": 9
+  },
+  "wwii": {
+    "outcome": "negotiated_settlement",
+    "termination_month": 20
+  }
+}

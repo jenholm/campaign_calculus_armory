@@ -1,0 +1,21 @@
+{
+  "random_forest": {
+    "n_wars": 2571,
+    "n_features": 13,
+    "feature_importances": {
+      "military_expenditure_decline": 0.0,
+      "military_expenditure_initial": 0.0,
+      "military_personnel_decline": 0.0,
+      "military_personnel_initial": 0.0,
+      "iron_steel_decline": 0.0,
+      "iron_steel_initial": 0.0,
+      "energy_consumption_decline": 0.0,
+      "energy_consumption_initial": 0.0,
+      "population_decline": 0.0,
+      "population_initial": 0.0,
+      "cinc_decline": 0.0,
+      "cinc_initial": 0.0,
+      "casualty_proxy": 0.0
+    }
+  }
+}

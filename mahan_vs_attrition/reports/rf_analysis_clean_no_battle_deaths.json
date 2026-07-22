@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "n_samples": 2137,
+    "n_features": 10,
+    "n_short": 1020,
+    "n_long": 1117,
+    "null_baseline": 0.5227,
+    "features_used": [
+      "military_personnel_pct_change",
+      "military_personnel_initial",
+      "military_expenditure_pct_change",
+      "military_expenditure_initial",
+      "energy_consumption_pct_change",
+      "energy_consumption_initial",
+      "iron_steel_pct_change",
+      "iron_steel_initial",
+      "cinc_pct_change",
+      "cinc_initial"
+    ],
+    "features_removed": [
+      "battle_deaths_initial",
+      "battle_deaths_pct_change"
+    ],
+    "removal_reason": "Wartime outcome, not ex-ante predictor. Our own audit labels battle_deaths as 'Forbidden (outcome-dependent)'.",
+    "random_seed": 42
+  },
+  "results": {
+    "Random Forest": {
+      "accuracy": 0.7267,
+      "accuracy_std": 0.0174,
+      "balanced_accuracy": 0.7268,
+      "auc_roc": 0.8144,
+      "precision": 0.708,
+      "recall": 0.7275,
+      "f1": 0.7176,
+      "confusion_matrix": [
+        [
+          811,
+          306
+        ],
+        [
+          278,
+          742
+        ]
+      ]
+    },
+    "Logistic Regression": {
+      "accuracy": 0.5498,
+      "accuracy_std": 0.0217,
+      "balanced_accuracy": 0.5442,
+      "auc_roc": 0.551,
+      "precision": 0.5363,
+      "recall": 0.4206,
+      "f1": 0.4714,
+      "confusion_matrix": [
+        [
+          746,
+          371
+        ],
+        [
+          591,
+          429
+        ]
+      ]
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "cinc_pct_change",
+      "gini_importance": 0.2217244799661553,
+      "perm_importance_mean": 0.18733426922476987,
+      "perm_importance_std": 0.007233592574097757
+    },
+    {
+      "feature": "energy_consumption_pct_change",
+      "gini_importance": 0.21159678308834315,
+      "perm_importance_mean": 0.10294805802526902,
+      "perm_importance_std": 0.005695369112386035
+    },
+    {
+      "feature": "military_expenditure_pct_change",
+      "gini_importance": 0.11783725962995448,
+      "perm_importance_mean": 0.040586491966931794,
+      "perm_importance_std": 0.004295482282670443
+    },
+    {
+      "feature": "military_personnel_pct_change",
+      "gini_importance": 0.09782985124768236,
+      "perm_importance_mean": 0.08759943846513797,
+      "perm_importance_std": 0.005942972032249771
+    },
+    {
+      "feature": "cinc_initial",
+      "gini_importance": 0.08309393121103908,
+      "perm_importance_mean": 0.05113086881921691,
+      "perm_importance_std": 0.0055512029747709244
+    },
+    {
+      "feature": "energy_consumption_initial",
+      "gini_importance": 0.08108068159604029,
+      "perm_importance_mean": 0.05712057401341441,
+      "perm_importance_std": 0.005702968121095237
+    },
+    {
+      "feature": "military_expenditure_initial",
+      "gini_importance": 0.06889196245113403,
+      "perm_importance_mean": 0.04705974107003583,
+      "perm_importance_std": 0.006342558814118743
+    },
+    {
+      "feature": "iron_steel_initial",
+      "gini_importance": 0.061376219332172605,
+      "perm_importance_mean": 0.023241304008734937,
+      "perm_importance_std": 0.004099684043300453
+    },
+    {
+      "feature": "military_personnel_initial",
+      "gini_importance": 0.05133804327407914,
+      "perm_importance_mean": 0.018421463110279153,
+      "perm_importance_std": 0.004748336203658769
+    },
+    {
+      "feature": "iron_steel_pct_change",
+      "gini_importance": 0.0052307882033996375,
+      "perm_importance_mean": 0.013679613164872853,
+      "perm_importance_std": 0.0010158003528413612
+    }
+  ],
+  "lr_coefficients": {
+    "cinc_initial": 0.2894,
+    "military_expenditure_pct_change": -0.2282,
+    "energy_consumption_pct_change": -0.2232,
+    "cinc_pct_change": 0.2218,
+    "military_personnel_initial": -0.1948,
+    "iron_steel_pct_change": 0.1194,
+    "energy_consumption_initial": -0.0962,
+    "military_personnel_pct_change": 0.0849,
+    "military_expenditure_initial": 0.0409,
+    "iron_steel_initial": 0.0356
+  }
+}

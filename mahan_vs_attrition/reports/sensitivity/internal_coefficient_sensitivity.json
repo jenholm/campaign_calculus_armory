@@ -1,0 +1,289 @@
+{
+  "aggregate": {
+    "n_coefficients": 23,
+    "n_presets": 3,
+    "mean_flip_rate": 0.003,
+    "max_flip_rate": 0.2,
+    "fragile_coefficients": [],
+    "robust_coefficients": [
+      "battle_loss_rate",
+      "recruitment_rate",
+      "recruitment_cap",
+      "economic_war_costs",
+      "blockade",
+      "industrial_output",
+      "casualty_pressure",
+      "weariness",
+      "economic_hardship",
+      "bombing",
+      "recon",
+      "fatigue_denominator",
+      "shock_damage",
+      "retaliation",
+      "shock_industrial_factor",
+      "shock_political_factor",
+      "military_shock_factor",
+      "capital_bonus",
+      "surrender_bonus",
+      "ses_mil_weight",
+      "ses_econ_weight",
+      "ses_pol_weight",
+      "ses_duration_weight"
+    ]
+  },
+  "per_coefficient": {
+    "battle_loss_rate": {
+      "default": 0.04,
+      "location": "attrition",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.2,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.067,
+      "max_flip_rate": 0.2
+    },
+    "recruitment_rate": {
+      "default": 0.004,
+      "location": "attrition",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "recruitment_cap": {
+      "default": 1.5,
+      "location": "attrition",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "economic_war_costs": {
+      "default": 0.025,
+      "location": "attrition",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "blockade": {
+      "default": 0.01,
+      "location": "attrition",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "industrial_output": {
+      "default": 0.006,
+      "location": "attrition",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "casualty_pressure": {
+      "default": 0.2,
+      "location": "attrition",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "weariness": {
+      "default": 0.4,
+      "location": "attrition",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "economic_hardship": {
+      "default": 0.03,
+      "location": "attrition",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "bombing": {
+      "default": 0.015,
+      "location": "attrition",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "recon": {
+      "default": 0.004,
+      "location": "attrition",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "fatigue_denominator": {
+      "default": 60.0,
+      "location": "attrition",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "shock_damage": {
+      "default": 5.0,
+      "location": "shock",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "retaliation": {
+      "default": 4.0,
+      "location": "shock",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "shock_industrial_factor": {
+      "default": 0.25,
+      "location": "shock",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "shock_political_factor": {
+      "default": 0.2,
+      "location": "shock",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "military_shock_factor": {
+      "default": 50.0,
+      "location": "dss",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "capital_bonus": {
+      "default": 30.0,
+      "location": "dss",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "surrender_bonus": {
+      "default": 20.0,
+      "location": "dss",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "ses_mil_weight": {
+      "default": 0.3,
+      "location": "ses",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "ses_econ_weight": {
+      "default": 0.3,
+      "location": "ses",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "ses_pol_weight": {
+      "default": 0.2,
+      "location": "ses",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    },
+    "ses_duration_weight": {
+      "default": 0.2,
+      "location": "ses",
+      "flip_rates": {
+        "gulf_war_1991": 0.0,
+        "vietnam_war": 0.0,
+        "wwi": 0.0
+      },
+      "mean_flip_rate": 0.0,
+      "max_flip_rate": 0.0
+    }
+  }
+}

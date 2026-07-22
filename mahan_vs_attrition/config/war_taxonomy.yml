@@ -1,0 +1,106 @@
+# Two-dimensional classification:
+# 1. observed_mechanism: what the data suggests
+# 2. data_quality: how confident we can be
+
+observed_mechanism:
+  decisive:
+    description: "Decisive shock or battle primarily drove termination"
+  attritional:
+    description: "Cumulative exhaustion primarily drove termination"
+  mixed:
+    description: "Both mechanisms contributed substantially"
+  uncertain:
+    description: "Insufficient evidence to determine dominant mechanism"
+
+data_quality:
+  high:
+    description: "Both DSS and SES computed from empirical data; classification based on scores"
+  medium:
+    description: "Only one axis scored; classification based on partial data or manual override"
+  low:
+    description: "No empirical scores; classification based on war type heuristics or manual coding only"
+
+termination_types:
+  decisive_battle:
+    description: "A single battle or campaign directly produced surrender, regime collapse, or irreversible strategic loss within a short window."
+
+  decisive_campaign:
+    description: "A linked operational campaign, not one battle, directly caused termination."
+
+  decisive_battle_or_campaign:
+    description: "Classification label for wars where DSS decisively exceeds SES, indicating termination by battle or campaign shock."
+
+  strategic_exhaustion:
+    description: "War ended mainly through cumulative manpower, economic, logistics, territorial, or political exhaustion."
+
+  logistics_collapse:
+    description: "Supply, transport, fuel, ammunition, or industrial support failed decisively."
+
+  personnel_attrition:
+    description: "Loss of trained manpower or force regeneration capacity became decisive."
+
+  will_collapse:
+    description: "Domestic political will, elite cohesion, or regime legitimacy collapsed."
+
+  alliance_failure:
+    description: "Loss, defection, or failure of allies materially caused defeat."
+
+  external_intervention:
+    description: "Entry or escalation by an outside power changed the outcome."
+
+  negotiated_stalemate:
+    description: "War ended without clear defeat, usually through settlement, armistice, or frozen conflict."
+
+  mixed:
+    description: "Multiple mechanisms were necessary and no single mechanism dominates."
+
+  mixed_or_uncertain:
+    description: "Classification label for wars where DSS and SES are close, making categorization ambiguous."
+
+  uncertain_or_negotiated:
+    description: "Classification label for wars where both DSS and SES are low, suggesting negotiated or uncertain termination."
+
+  data_insufficient:
+    description: "Both DSS and SES scores are missing; insufficient data to classify."
+
+  ses_only_insufficient:
+    description: "Only SES score is available; DSS missing so hybrid classification cannot be applied."
+
+  dss_only_insufficient:
+    description: "Only DSS score is available; SES missing so hybrid classification cannot be applied."
+
+war_types:
+  interstate:
+    description: "War between two or more recognized states"
+  intrastate:
+    description: "Civil war within a recognized state"
+  extra_state:
+    description: "War between a state and a non-state entity outside its borders"
+  non_state:
+    description: "War between non-state entities"
+  colonial:
+    description: "War of colonial conquest or liberation"
+  coalition:
+    description: "War involving a formal coalition against a common adversary"
+  civil_internationalized:
+    description: "Civil war with foreign military intervention on one or both sides"
+  ancient_case_study:
+    description: "Pre-modern or classical case coded manually"
+
+eras:
+  classical_to_1399:
+    label: "Classical to 1399"
+  early_modern_1400_1788:
+    label: "Early Modern 1400-1788"
+  revolutionary_napoleonic_1789_1815:
+    label: "Revolutionary/Napoleonic 1789-1815"
+  industrial_1816_1913:
+    label: "Industrial 1816-1913"
+  world_war_1914_1945:
+    label: "World War 1914-1945"
+  cold_war_1946_1991:
+    label: "Cold War 1946-1991"
+  post_cold_war_1992_2021:
+    label: "Post-Cold War 1992-2021"
+  current_2022_present:
+    label: "Current 2022-present"
