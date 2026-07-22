@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War Dynamics Simulator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Decisive Shock or Strategic Exhaustion? War Dynamics Simulator</h1>
+        <p class="subtitle">Interactive simulation testing Mahan vs Attrition hypotheses</p>
+    </header>
+
+    <div class="app-container">
+        <aside class="control-panel">
+            <section class="panel-section">
+                <h3>War Type</h3>
+                <select id="war-type">
+                    <option value="total_war">Total War</option>
+                    <option value="limited_war">Limited War</option>
+                    <option value="colonial_war">Colonial War</option>
+                    <option value="coalition_war">Coalition War</option>
+                </select>
+            </section>
+
+            <section class="panel-section">
+                <h3>Historical Presets</h3>
+                <div class="preset-grid">
+                    <button class="preset-btn" data-preset="gulf_war_1991">Gulf War 1991</button>
+                    <button class="preset-btn" data-preset="vietnam_war">Vietnam War</button>
+                    <button class="preset-btn" data-preset="wwi">World War I</button>
+                    <button class="preset-btn" data-preset="franco_prussian">Franco-Prussian War</button>
+                    <button class="preset-btn" data-preset="korean_war">Korean War</button>
+                    <button class="preset-btn" data-preset="iran_iraq">Iran-Iraq War</button>
+                    <button class="preset-btn" data-preset="wwii">World War II</button>
+                </div>
+            </section>
+
+            <section class="panel-section">
+                <h3>Parameters</h3>
+                <div class="slider-group">
+                    <label>
+                        Shock Strength
+                        <span class="param-desc">Mahan parameter: decisive battle potential</span>
+                    </label>
+                    <input type="range" id="shock-strength" min="0" max="100" value="60">
+                    <span class="slider-value" id="shock-strength-val">60</span>
+                </div>
+                <div class="slider-group">
+                    <label>
+                        Attrition Rate
+                        <span class="param-desc">Exhaustion parameter: cumulative wear</span>
+                    </label>
+                    <input type="range" id="attrition-rate" min="0" max="100" value="60">
+                    <span class="slider-value" id="attrition-rate-val">60</span>
+                </div>
+                <div class="slider-group">
+                    <label>
+                        Economic Resilience
+                        <span class="param-desc">Capacity to sustain losses</span>
+                    </label>
+                    <input type="range" id="economic-resilience" min="0" max="100" value="60">
+                    <span class="slider-value" id="economic-resilience-val">60</span>
+                </div>
+                <div class="slider-group">
+                    <label>
+                        Political Resilience
+                        <span class="param-desc">Will to sustain conflict</span>
+                    </label>
+                    <input type="range" id="political-resilience" min="0" max="100" value="60">
+                    <span class="slider-value" id="political-resilience-val">60</span>
+                </div>
+            </section>
+
+            <section class="panel-section">
+                <h3>Sides</h3>
+                <div class="side-input">
+                    <label for="side-a-name">Side A</label>
+                    <input type="text" id="side-a-name" value="Side A">
+                </div>
+                <div class="side-input">
+                    <label for="side-b-name">Side B</label>
+                    <input type="text" id="side-b-name" value="Side B">
+                </div>
+            </section>
+
+            <section class="panel-section">
+                <div class="history-toggle-wrap">
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="history-mode-toggle">
+                        <span class="toggle-slider"></span>
+                    </label>
+                    <label for="history-mode-toggle">History Mode</label>
+                </div>
+            </section>
+
+            <section class="panel-section">
+                <div class="history-toggle-wrap">
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="full-state-toggle">
+                        <span class="toggle-slider"></span>
+                    </label>
+                    <label for="full-state-toggle">Full 5-Variable Model</label>
+                </div>
+            </section>
+
+            <section class="panel-section">
+                <div id="app-status" class="app-status"></div>
+            </section>
+
+            <section class="panel-section">
+                <h3>Animation Speed</h3>
+                <div class="speed-controls">
+                    <label class="speed-option">
+                        <input type="radio" name="anim-speed" value="500"> Slow (500ms)
+                    </label>
+                    <label class="speed-option">
+                        <input type="radio" name="anim-speed" value="250" checked> Medium (250ms)
+                    </label>
+                    <label class="speed-option">
+                        <input type="radio" name="anim-speed" value="100"> Fast (100ms)
+                    </label>
+                    <label class="speed-option">
+                        <input type="radio" name="anim-speed" value="50"> Very Fast (50ms)
+                    </label>
+                </div>
+            </section>
+
+            <section class="panel-section">
+                <div class="action-buttons">
+                    <button id="run-btn" class="btn-primary">Run Simulation</button>
+                    <button id="animate-btn" class="btn-secondary">Run Animation</button>
+                    <button id="pause-btn" class="btn-secondary" disabled>Pause</button>
+                    <button id="reset-btn" class="btn-secondary">Reset</button>
+                    <button id="export-btn" class="btn-secondary">Export JSON</button>
+                </div>
+            </section>
+        </aside>
+
+        <main class="visualization-area">
+            <div class="chart-card">
+                <h2>War Trajectory</h2>
+                <div class="chart-container">
+                    <canvas id="trajectory-chart"></canvas>
+                </div>
+                <div class="chart-legend" id="trajectory-legend"></div>
+            </div>
+
+            <div class="chart-card">
+                <h2>Mechanism Dominance</h2>
+                <div class="chart-container">
+                    <canvas id="mechanism-chart"></canvas>
+                </div>
+                <div class="chart-legend" id="mechanism-legend"></div>
+            </div>
+
+            <div class="chart-card outcome-card">
+                <h2>Outcome</h2>
+                <div id="outcome-text" class="outcome-text">Awaiting simulation...</div>
+                <div id="outcome-stats" class="outcome-stats"></div>
+            </div>
+
+            <div class="confidence-panel" id="confidencePanel" style="display:none;">
+                <h3>Model Confidence</h3>
+                <div class="confidence-indicator" id="confidenceIndicator">
+                    <div class="confidence-level" id="confidenceLevel">—</div>
+                    <div class="confidence-bar">
+                        <div class="confidence-fill" id="confidenceFill"></div>
+                    </div>
+                    <div class="confidence-text" id="confidenceText"></div>
+                </div>
+            </div>
+
+            <aside class="history-sidebar" id="history-sidebar">
+                <h3>Historical Events</h3>
+                <div id="history-events-container">
+                    <div class="no-history-msg">Select a preset and run a simulation to see historical events.</div>
+                </div>
+                <div class="event-detail" id="event-detail">
+                    <h4 id="event-detail-title"></h4>
+                    <div id="event-detail-body"></div>
+                </div>
+                <div class="mechanism-breakdown" id="mechanism-breakdown" style="display:none;">
+                    <h4>Mechanism Breakdown</h4>
+                    <div class="mechanism-bar">
+                        <div class="bar-segment bar-exhaustion" id="mech-bar-exhaustion"></div>
+                        <div class="bar-segment bar-shock" id="mech-bar-shock"></div>
+                        <div class="bar-segment bar-mixed" id="mech-bar-mixed"></div>
+                    </div>
+                    <div class="mechanism-labels" id="mechanism-labels"></div>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <footer>
+        <p>War Dynamics Simulator v2.0 | Mechanism classifier v2 | <a href="#">Mahan vs Attrition Framework</a></p>
+    </footer>
+
+    <script src="js/war_simulation.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/presets.js"></script>
+    <script src="js/historical_events.js"></script>
+    <script src="js/mechanism_classifier.js"></script>
+    <script src="js/config_builder.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
