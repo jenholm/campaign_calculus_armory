@@ -6,6 +6,12 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 PAPER_DIR="$ROOT/paper"
 
+if command -v uv >/dev/null 2>&1; then
+  PYTHON_RUNNER="uv run python"
+else
+  PYTHON_RUNNER="${PYTHON:-python3}"
+fi
+
 usage() {
   echo "usage: render_and_check_pdf.sh [--skip-gates]" >&2
   echo "  --skip-gates   Build PDF but skip gate checks" >&2
@@ -22,10 +28,10 @@ for arg in "$@"; do
 done
 
 echo "=== Step 1: Generate tables and figures ==="
-python3 "$ROOT/scripts/noise_sensitivity.py"
-python3 "$ROOT/scripts/statistical_model_audit.py"
-python3 "$ROOT/scripts/generate_case_inventory_tables.py"
-python3 "$ROOT/scripts/generate_paper_figures.py"
+$PYTHON_RUNNER "$ROOT/scripts/noise_sensitivity.py"
+$PYTHON_RUNNER "$ROOT/scripts/statistical_model_audit.py"
+$PYTHON_RUNNER "$ROOT/scripts/generate_case_inventory_tables.py"
+$PYTHON_RUNNER "$ROOT/scripts/generate_paper_figures.py"
 
 echo "=== Step 2: Build PDF ==="
 cd "$PAPER_DIR"
@@ -44,13 +50,13 @@ echo "=== Step 3: Run gate checks ==="
 FAIL=0
 
 echo "--- Consistency check ---"
-python3 "$ROOT/scripts/check_manuscript_consistency.py" || FAIL=1
+$PYTHON_RUNNER "$ROOT/scripts/check_manuscript_consistency.py" || FAIL=1
 
 echo "--- Layout check ---"
-python3 "$ROOT/scripts/check_pdf_layout.py" "$PAPER_DIR/manuscript.pdf" "$PAPER_DIR/manuscript.log" || FAIL=1
+$PYTHON_RUNNER "$ROOT/scripts/check_pdf_layout.py" "$PAPER_DIR/manuscript.pdf" "$PAPER_DIR/manuscript.log" || FAIL=1
 
 echo "--- Model-paper sync check ---"
-python3 "$ROOT/scripts/check_model_paper_sync.py" || FAIL=1
+$PYTHON_RUNNER "$ROOT/scripts/check_model_paper_sync.py" || FAIL=1
 
 if [ "$FAIL" -ne 0 ]; then
   echo "=== GATE FAILURE ==="

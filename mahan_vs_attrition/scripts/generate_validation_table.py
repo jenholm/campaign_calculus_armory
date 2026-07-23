@@ -1,8 +1,4 @@
-"""Generate the blind validation results table (Table 11) for the paper.
-
-Uses the existing blind validation pipeline to produce deterministic output.
-All fields are populated from model results --- no blanks.
-"""
+"""Generate the blind validation results table for the appendix."""
 
 import sys
 from pathlib import Path
@@ -123,20 +119,31 @@ def generate_validation_table():
 
     # Generate LaTeX table
     lines = [
-        r"\begin{table}[ht]",
+        r"\begin{table}[H]",
         r"\centering",
-        r"\caption{Blind validation results: model classifications versus human expert labels for 24 historical cases. All values generated deterministically from initial structural conditions with neutral default parameters.}",
+        r"\caption{Blind validation: model classifications versus author-assigned labels for 24 historical cases. All 24 cases are classified as ``Uncertain,'' confirming that the classifier cannot distinguish mechanism types without case-specific calibration.}",
         r"\label{tab:blind_validation}",
-        r"\begin{tabularx}{\textwidth}{l c c c l}",
+        r"\scriptsize",
+        r"\setlength{\tabcolsep}{4pt}",
+        r"\renewcommand{\arraystretch}{1.10}",
+        r"\begin{tabularx}{\textwidth}{@{}",
+        r">{\RaggedRight\arraybackslash}p{0.28\textwidth}",
+        r">{\RaggedRight\arraybackslash}p{0.20\textwidth}",
+        r">{\centering\arraybackslash}p{0.14\textwidth}",
+        r">{\centering\arraybackslash}X",
+        r"@{}}",
         r"\toprule",
-        r"\textbf{Conflict} & \textbf{Human Label} & \textbf{Preset DSS} & \textbf{Observed DSS} & \textbf{Final Classification} \\",
+        r"\textbf{Conflict} &",
+        r"\textbf{Human label} &",
+        r"\textbf{Preset DSS} &",
+        r"\textbf{Observed DSS} \\",
         r"\midrule",
     ]
 
     for r in results:
         case_short = r["case_name"].replace(" War", "").replace(" 1967", " (1967)")
         lines.append(
-            f"    {case_short} & {r['human_label']} & {r['preset_dss']} & {r['observed_dss']} & {r['classification']} \\\\"
+            f"    {case_short} & {r['human_label']} & {r['preset_dss']} & {r['observed_dss']} \\\\"
         )
 
     lines.extend([

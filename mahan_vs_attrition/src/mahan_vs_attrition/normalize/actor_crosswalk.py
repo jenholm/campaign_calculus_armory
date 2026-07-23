@@ -320,7 +320,7 @@ def build_actor_crosswalk(
                     existing_names.add(actor_name.lower())
 
     df = pd.DataFrame(records, columns=CROSSWALK_SCHEMA)
-    for col in df.select_dtypes(include=["object", "str"]).columns:
+    for col in df.select_dtypes(include=["object"]).columns:
         df[col] = df[col].astype(str)
 
     output_dir.mkdir(parents=True, exist_ok=True)

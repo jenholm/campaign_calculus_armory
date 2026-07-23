@@ -15,7 +15,3 @@
 ./src
 ./src/mahan_vs_attrition
 ./tests
-./web
-./web/css
-./web/js
-./web/tests

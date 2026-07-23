@@ -1,0 +1,442 @@
+# Blind validation cases
+# The simulator receives initial conditions but NOT the historical classification
+# This tests whether the model can predict mechanism from structural factors alone
+
+cases:
+  # DECISIVE cases (human consensus)
+  - name: "Six-Day War 1967"
+    human_label: "decisive"
+    war_type: "limited_war"
+    side_a: "Israel"
+    side_b: "Egypt/Syria/Jordan"
+    initial:
+      military_a: 80
+      military_b: 75
+      economic_a: 60
+      economic_b: 45
+      political_will_a: 95
+      political_will_b: 50
+      population_support_a: 90
+      population_support_b: 45
+      industrial_a: 55
+      industrial_b: 40
+    notes: "Preemptive air strike destroyed Egyptian air force on day one"
+
+  - name: "Austro-Prussian War 1866"
+    human_label: "decisive"
+    war_type: "limited_war"
+    side_a: "Prussia"
+    side_b: "Austria"
+    initial:
+      military_a: 75
+      military_b: 70
+      economic_a: 60
+      economic_b: 65
+      political_will_a: 85
+      political_will_b: 55
+      population_support_a: 80
+      population_support_b: 50
+      industrial_a: 65
+      industrial_b: 60
+    notes: "Seven Weeks War; Königgrätz decided it"
+
+  - name: "Desert Storm 1991"
+    human_label: "decisive"
+    war_type: "limited_war"
+    side_a: "Coalition"
+    side_b: "Iraq"
+    initial:
+      military_a: 95
+      military_b: 70
+      economic_a: 95
+      economic_b: 40
+      political_will_a: 85
+      political_will_b: 55
+      population_support_a: 75
+      population_support_b: 40
+      industrial_a: 95
+      industrial_b: 35
+    notes: "100-hour ground war after 6-week air campaign"
+
+  - name: "Franco-Prussian War 1870"
+    human_label: "decisive"
+    war_type: "limited_war"
+    side_a: "Prussia"
+    side_b: "France"
+    initial:
+      military_a: 85
+      military_b: 65
+      economic_a: 70
+      economic_b: 80
+      political_will_a: 90
+      political_will_b: 55
+      population_support_a: 85
+      population_support_b: 50
+      industrial_a: 75
+      industrial_b: 75
+    notes: "Sedan captured Emperor; Paris fell weeks later"
+
+  - name: "Russo-Turkish War 1877"
+    human_label: "decisive"
+    war_type: "limited_war"
+    side_a: "Russia"
+    side_b: "Ottoman Empire"
+    initial:
+      military_a: 75
+      military_b: 60
+      economic_a: 55
+      economic_b: 45
+      political_will_a: 80
+      political_will_b: 50
+      population_support_a: 75
+      population_support_b: 45
+      industrial_a: 50
+      industrial_b: 40
+    notes: "Fall of Constantinople would have ended it; Treaty of San Stefano"
+
+  # ATTRITIONAL cases
+  - name: "Vietnam War"
+    human_label: "attritional"
+    war_type: "limited_war"
+    side_a: "USA/South Vietnam"
+    side_b: "North Vietnam/Viet Cong"
+    initial:
+      military_a: 85
+      military_b: 50
+      economic_a: 95
+      economic_b: 30
+      political_will_a: 70
+      political_will_b: 95
+      population_support_a: 60
+      population_support_b: 85
+      industrial_a: 95
+      industrial_b: 25
+    notes: "Willpower asymmetry; US domestic opposition grew over time"
+
+  - name: "Soviet-Afghan War"
+    human_label: "attritional"
+    war_type: "limited_war"
+    side_a: "Soviet Union"
+    side_b: "Mujahideen"
+    initial:
+      military_a: 90
+      military_b: 30
+      economic_a: 85
+      economic_b: 15
+      political_will_a: 70
+      political_will_b: 95
+      population_support_a: 50
+      population_support_b: 90
+      industrial_a: 90
+      industrial_b: 10
+    notes: "10-year occupation; Soviet will collapsed"
+
+  - name: "WWI"
+    human_label: "attritional"
+    war_type: "total_war"
+    side_a: "Allies"
+    side_b: "Central Powers"
+    initial:
+      military_a: 80
+      military_b: 75
+      economic_a: 85
+      economic_b: 70
+      political_will_a: 80
+      political_will_b: 75
+      population_support_a: 75
+      population_support_b: 70
+      industrial_a: 85
+      industrial_b: 75
+    notes: "4 years of trench warfare; blockade starved Germany"
+
+  - name: "Iran-Iraq War"
+    human_label: "attritional"
+    war_type: "limited_war"
+    side_a: "Iran"
+    side_b: "Iraq"
+    initial:
+      military_a: 60
+      military_b: 65
+      economic_a: 50
+      economic_b: 55
+      political_will_a: 90
+      political_will_b: 75
+      population_support_a: 85
+      population_support_b: 70
+      industrial_a: 45
+      industrial_b: 50
+    notes: "8 years; no decisive battle; mutual exhaustion"
+
+  - name: "Boer War"
+    human_label: "attritional"
+    war_type: "colonial"
+    side_a: "Britain"
+    side_b: "Boer Republics"
+    initial:
+      military_a: 90
+      military_b: 35
+      economic_a: 95
+      economic_b: 30
+      political_will_a: 70
+      political_will_b: 90
+      population_support_a: 55
+      population_support_b: 85
+      industrial_a: 95
+      industrial_b: 20
+    notes: "Guerrilla war; Britain used scorched earth + camps"
+
+  - name: "Chechen War (First)"
+    human_label: "attritional"
+    war_type: "intrastate"
+    side_a: "Russia"
+    side_b: "Chechnya"
+    initial:
+      military_a: 85
+      military_b: 25
+      economic_a: 60
+      economic_b: 15
+      political_will_a: 50
+      political_will_b: 95
+      population_support_a: 40
+      population_support_b: 90
+      industrial_a: 70
+      industrial_b: 10
+    notes: "Russian Grozny assault failed; Khasavyurt Accords"
+
+  # MIXED cases
+  - name: "Korean War"
+    human_label: "mixed"
+    war_type: "coalition"
+    side_a: "UN/South Korea"
+    side_b: "North Korea/China"
+    initial:
+      military_a: 80
+      military_b: 65
+      economic_a: 90
+      economic_b: 40
+      political_will_a: 70
+      political_will_b: 85
+      population_support_a: 65
+      population_support_b: 80
+      industrial_a: 90
+      industrial_b: 35
+    notes: "Inchon was decisive; Chinese intervention created stalemate"
+
+  - name: "American Civil War"
+    human_label: "mixed"
+    war_type: "intrastate"
+    side_a: "Union"
+    side_b: "Confederacy"
+    initial:
+      military_a: 75
+      military_b: 60
+      economic_a: 85
+      economic_b: 50
+      political_will_a: 75
+      political_will_b: 80
+      population_support_a: 70
+      population_support_b: 75
+      industrial_a: 85
+      industrial_b: 40
+    notes: "Grant's attrition + Sherman's march; both mechanisms needed"
+
+  - name: "WWII Eastern Front"
+    human_label: "mixed"
+    war_type: "total_war"
+    side_a: "Soviet Union"
+    side_b: "Nazi Germany"
+    initial:
+      military_a: 80
+      military_b: 85
+      economic_a: 75
+      economic_b: 80
+      political_will_a: 80
+      political_will_b: 85
+      population_support_a: 85
+      population_support_b: 80
+      industrial_a: 80
+      industrial_b: 85
+    notes: "Stalingrad decisive; but Soviet industrial attrition won"
+
+  - name: "WWII Pacific"
+    human_label: "mixed"
+    war_type: "total_war"
+    side_a: "USA"
+    side_b: "Japan"
+    initial:
+      military_a: 85
+      military_b: 70
+      economic_a: 95
+      economic_b: 50
+      political_will_a: 85
+      political_will_b: 80
+      population_support_a: 80
+      population_support_b: 75
+      industrial_a: 95
+      industrial_b: 45
+    notes: "Midway decisive; but oil blockade and atomic bombs were exhaustion"
+
+  - name: "Franco-Thai War 1940"
+    human_label: "mixed"
+    war_type: "interstate"
+    side_a: "Thailand"
+    side_b: "France (Vichy)"
+    initial:
+      military_a: 55
+      military_b: 45
+      economic_a: 40
+      economic_b: 35
+      political_will_a: 80
+      political_will_b: 40
+      population_support_a: 75
+      population_support_b: 35
+      industrial_a: 30
+      industrial_b: 25
+    notes: "Thai victories but French naval superiority; mediated settlement"
+
+  # ADDITIONAL DECISIVE cases
+  - name: "Yom Kippur War 1973"
+    human_label: "decisive"
+    war_type: "limited_war"
+    side_a: "Israel"
+    side_b: "Egypt/Syria"
+    initial:
+      military_a: 80
+      military_b: 70
+      economic_a: 60
+      economic_b: 50
+      political_will_a: 90
+      political_will_b: 70
+      population_support_a: 85
+      population_support_b: 75
+      industrial_a: 60
+      industrial_b: 45
+    notes: "Surprise attack but Israeli counteroffensive crossed Suez; decisive turning point"
+
+  - name: "Falklands War 1982"
+    human_label: "decisive"
+    war_type: "limited_war"
+    side_a: "United Kingdom"
+    side_b: "Argentina"
+    initial:
+      military_a: 75
+      military_b: 60
+      economic_a: 85
+      economic_b: 45
+      political_will_a: 90
+      political_will_b: 50
+      population_support_a: 80
+      population_support_b: 60
+      industrial_a: 80
+      industrial_b: 40
+    notes: "Task force recaptured islands; Argentine garrison surrendered"
+
+  - name: "Poland Campaign 1939"
+    human_label: "decisive"
+    war_type: "limited_war"
+    side_a: "Germany"
+    side_b: "Poland"
+    initial:
+      military_a: 90
+      military_b: 55
+      economic_a: 85
+      economic_b: 35
+      political_will_a: 90
+      political_will_b: 75
+      population_support_a: 70
+      population_support_b: 85
+      industrial_a: 90
+      industrial_b: 30
+    notes: "Blitzkrieg overwhelmed Poland in 5 weeks"
+
+  # ADDITIONAL ATTRITIONAL cases
+  - name: "Thirty Years War"
+    human_label: "attritional"
+    war_type: "coalition"
+    side_a: "Coalition (Sweden/France)"
+    side_b: "Habsburg Empire"
+    initial:
+      military_a: 70
+      military_b: 75
+      economic_a: 70
+      economic_b: 80
+      political_will_a: 75
+      political_will_b: 80
+      population_support_a: 65
+      population_support_b: 70
+      industrial_a: 65
+      industrial_b: 75
+    notes: "30 years of devastation; exhausted all parties"
+
+  - name: "Peloponnesian War"
+    human_label: "attritional"
+    war_type: "coalition"
+    side_a: "Athens"
+    side_b: "Sparta"
+    initial:
+      military_a: 70
+      military_b: 75
+      economic_a: 80
+      economic_b: 50
+      political_will_a: 75
+      political_will_b: 85
+      population_support_a: 70
+      population_support_b: 80
+      industrial_a: 70
+      industrial_b: 40
+    notes: "27 years; Athens slowly strangled by blockade and plague"
+
+  # ADDITIONAL MIXED cases
+  - name: "Napoleonic Wars"
+    human_label: "mixed"
+    war_type: "coalition"
+    side_a: "Coalition (various)"
+    side_b: "France"
+    initial:
+      military_a: 80
+      military_b: 85
+      economic_a: 75
+      economic_b: 80
+      political_will_a: 70
+      political_will_b: 90
+      population_support_a: 65
+      population_support_b: 80
+      industrial_a: 70
+      industrial_b: 75
+    notes: "Austerlitz decisive; but attrition and Russian winter ended Napoleon"
+
+  - name: "Seven Years War"
+    human_label: "mixed"
+    war_type: "coalition"
+    side_a: "Britain/Prussia"
+    side_b: "France/Austria"
+    initial:
+      military_a: 75
+      military_b: 80
+      economic_a: 75
+      economic_b: 80
+      political_will_a: 80
+      political_will_b: 70
+      population_support_a: 70
+      population_support_b: 65
+      industrial_a: 75
+      industrial_b: 70
+    notes: "Decisive battles (Leuthen, Quiberon Bay) but war of attrition globally"
+
+  - name: "Iraq War 2003"
+    human_label: "decisive"
+    war_type: "limited_war"
+    side_a: "Coalition (US/UK)"
+    side_b: "Iraq"
+    initial:
+      military_a: 95
+      military_b: 65
+      economic_a: 95
+      economic_b: 35
+      political_will_a: 85
+      political_will_b: 55
+      population_support_a: 70
+      population_support_b: 50
+      industrial_a: 95
+      industrial_b: 30
+    notes: "3-week conventional campaign toppled Saddam; insurgency followed"
